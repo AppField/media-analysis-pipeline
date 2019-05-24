@@ -12,7 +12,7 @@ COPY ./requirements.txt /requirements.txt
 RUN pip3 install -r /requirements.txt
 
 # import existing workflow templates
-#COPY ./workflows/test_workflow.xml /opt/nifi/conf/templates/test_workflow.xml
+#COPY ./templates/Test_Template.xml /opt/nifi/conf/templates/Test_Templte.xml
 
 USER nifi
 

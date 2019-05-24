@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <template encoding-version="1.2">
     <description></description>
-    <groupId>eae8b47d-016a-1000-53ef-86fb0d30a20e</groupId>
-    <name>Test Workflow</name>
+    <groupId>eb816798-016a-1000-016f-d7be184bdd63</groupId>
+    <name>Test_Template</name>
     <snippet>
         <connections>
-            <id>1782fcf5-71c6-39f6-0000-000000000000</id>
-            <parentGroupId>a89c5c37-c682-3434-0000-000000000000</parentGroupId>
+            <id>74aeefa5-917e-3246-0000-000000000000</id>
+            <parentGroupId>4c857c07-6358-3f31-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
-                <groupId>a89c5c37-c682-3434-0000-000000000000</groupId>
-                <id>be86c733-5b56-328c-0000-000000000000</id>
+                <groupId>4c857c07-6358-3f31-0000-000000000000</groupId>
+                <id>954ee1af-667f-3594-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
@@ -23,15 +23,15 @@
             <name></name>
             <prioritizers>org.apache.nifi.prioritizer.FirstInFirstOutPrioritizer</prioritizers>
             <source>
-                <groupId>14ef4e5e-ce3e-3782-0000-000000000000</groupId>
-                <id>eca23084-1020-39a3-0000-000000000000</id>
+                <groupId>99ae8820-bd5e-3731-0000-000000000000</groupId>
+                <id>2896f9c3-0ebf-3d7b-0000-000000000000</id>
                 <type>OUTPUT_PORT</type>
             </source>
             <zIndex>0</zIndex>
         </connections>
         <processGroups>
-            <id>14ef4e5e-ce3e-3782-0000-000000000000</id>
-            <parentGroupId>a89c5c37-c682-3434-0000-000000000000</parentGroupId>
+            <id>99ae8820-bd5e-3731-0000-000000000000</id>
+            <parentGroupId>4c857c07-6358-3f31-0000-000000000000</parentGroupId>
             <position>
                 <x>0.0</x>
                 <y>0.0</y>
@@ -39,13 +39,13 @@
             <comments></comments>
             <contents>
                 <connections>
-                    <id>822698e3-e465-30da-0000-000000000000</id>
-                    <parentGroupId>14ef4e5e-ce3e-3782-0000-000000000000</parentGroupId>
+                    <id>353330d9-a802-3260-0000-000000000000</id>
+                    <parentGroupId>99ae8820-bd5e-3731-0000-000000000000</parentGroupId>
                     <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
                     <backPressureObjectThreshold>10000</backPressureObjectThreshold>
                     <destination>
-                        <groupId>14ef4e5e-ce3e-3782-0000-000000000000</groupId>
-                        <id>eca23084-1020-39a3-0000-000000000000</id>
+                        <groupId>99ae8820-bd5e-3731-0000-000000000000</groupId>
+                        <id>2896f9c3-0ebf-3d7b-0000-000000000000</id>
                         <type>OUTPUT_PORT</type>
                     </destination>
                     <flowFileExpiration>0 sec</flowFileExpiration>
@@ -58,15 +58,15 @@
                     <prioritizers>org.apache.nifi.prioritizer.FirstInFirstOutPrioritizer</prioritizers>
                     <selectedRelationships>success</selectedRelationships>
                     <source>
-                        <groupId>14ef4e5e-ce3e-3782-0000-000000000000</groupId>
-                        <id>35807da9-026a-3ecb-0000-000000000000</id>
+                        <groupId>99ae8820-bd5e-3731-0000-000000000000</groupId>
+                        <id>7235211c-62d4-37cc-0000-000000000000</id>
                         <type>PROCESSOR</type>
                     </source>
                     <zIndex>0</zIndex>
                 </connections>
                 <outputPorts>
-                    <id>eca23084-1020-39a3-0000-000000000000</id>
-                    <parentGroupId>14ef4e5e-ce3e-3782-0000-000000000000</parentGroupId>
+                    <id>2896f9c3-0ebf-3d7b-0000-000000000000</id>
+                    <parentGroupId>99ae8820-bd5e-3731-0000-000000000000</parentGroupId>
                     <position>
                         <x>1169.0</x>
                         <y>245.0</y>
@@ -78,8 +78,8 @@
                     <type>OUTPUT_PORT</type>
                 </outputPorts>
                 <processors>
-                    <id>35807da9-026a-3ecb-0000-000000000000</id>
-                    <parentGroupId>14ef4e5e-ce3e-3782-0000-000000000000</parentGroupId>
+                    <id>7235211c-62d4-37cc-0000-000000000000</id>
+                    <parentGroupId>99ae8820-bd5e-3731-0000-000000000000</parentGroupId>
                     <position>
                         <x>357.0</x>
                         <y>162.0</y>
@@ -178,11 +178,11 @@
             <variables/>
         </processGroups>
         <processors>
-            <id>be86c733-5b56-328c-0000-000000000000</id>
-            <parentGroupId>a89c5c37-c682-3434-0000-000000000000</parentGroupId>
+            <id>954ee1af-667f-3594-0000-000000000000</id>
+            <parentGroupId>4c857c07-6358-3f31-0000-000000000000</parentGroupId>
             <position>
-                <x>872.0</x>
-                <y>64.0</y>
+                <x>1166.0</x>
+                <y>51.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -249,7 +249,7 @@
                 <properties>
                     <entry>
                         <key>Directory</key>
-                        <value>/src/data/</value>
+                        <value>/home/nifi/data/</value>
                     </entry>
                     <entry>
                         <key>Conflict Resolution Strategy</key>
@@ -295,5 +295,5 @@
             <type>org.apache.nifi.processors.standard.PutFile</type>
         </processors>
     </snippet>
-    <timestamp>05/24/2019 19:09:03 UTC</timestamp>
+    <timestamp>05/24/2019 20:33:10 UTC</timestamp>
 </template>
