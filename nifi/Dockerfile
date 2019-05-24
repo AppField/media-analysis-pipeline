@@ -8,11 +8,11 @@ RUN apt-get update && apt-get upgrade -y \
     && apt-get install vim -y
 
 # install python modules
-COPY ./scrapper/requirements.txt /requirements.txt
+COPY ./requirements.txt /requirements.txt
 RUN pip3 install -r /requirements.txt
 
 # import existing workflow templates
-#COPY ./workflows/test_workflow.xml /opt/nifi/conf/templates/Test_Workflow.xml
+#COPY ./workflows/test_workflow.xml /opt/nifi/conf/templates/test_workflow.xml
 
 USER nifi
 
