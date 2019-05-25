@@ -1,0 +1,953 @@
+1558745005012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.cl1SSkI2gHbI"
+1558745006006	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558745006007	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558745006007	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558745009360	Marionette	INFO	Listening on port 52539
+1558745009438	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.acdc742362712a538e04edf50787b6b9.html?origin=https%3A%2F%2Fdiepresse.com&settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings, line 12: Error: Network error.
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4965/Banner_728x90.html?sasfid=22374&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893175%26insid%3D8750840%26pgid%3D393349%26ckid%3D6383695874958320654%26uii%3D303250703830202098%26acd%3D1558745007749%26pubid%3D14%26tmstp%3D6010767604%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D6383695874958320654%26uii%3D313102328015037334%26acd%3D1558745007845%26pubid%3D14%26tmstp%3D6010767604%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 11260, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11260, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_c[Chhilannel_win.cc, ld 10356,ine Ch 341rome_Ch
+ildThread] WARNING: pipe error[Child 934: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10356, Chrome_C[Parent 11260, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11644, Chrome_ChildThrea1558745020578	Marionette	INFO	Stopped listening on port 52539
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558745262206	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.HmqsBpUlO4ny"
+1558745263310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558745263310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558745263310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558745266251	Marionette	INFO	Listening on port 52664
+1558745266540	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9672, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9672, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/com[Chmonild/ipc_ channel_win.1cc0, line 341512, Chrome_ChildTh
+read] WARN[Child 9244, ChING: pirope errorme_: 109: Chifile z:/tasldThreak_15d] 5803WAR5249/NING: bpipe error: 109:uild file z/:/task_1558035249/builsrc/d/src/ipc/cipc/chromhroium/src/miuchrm/src/chrome/common/iomepc_cha/common/ipc_channel_win.ccnne, linl_win.ce 3c, 41
+line 34[Child 105121, C
+hrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/c[Parent 9672, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11312, Chr1558745299216	Marionette	INFO	Stopped listening on port 52664
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558745429161	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.WUhjndGiMGIy"
+1558745430061	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558745430062	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558745430062	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: chrome://browser/content/aboutPrivateBrowsing.js, line 11: ReferenceError: RPMIsWindowPrivate is not defined
+1558745433161	Marionette	INFO	Listening on port 52826
+1558745433514	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3752, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task[Parent 3752, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1672, Chrome_ChildThread][Parent 3752, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6932, 1558745450614	Marionette	INFO	Stopped listening on port 52826
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558745591491	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.K2fpBRpYtfXK"
+1558745592469	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558745592470	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558745592470	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: chrome://browser/content/aboutPrivateBrowsing.js, line 11: ReferenceError: RPMIsWindowPrivate is not defined
+1558745595657	Marionette	INFO	Listening on port 52943
+1558745595814	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.acdc742362712a538e04edf50787b6b9.html?origin=https%3A%2F%2Fdiepresse.com&settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings, line 12: Error: Network error.
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D151502890270565385%26uii%3D311976428146704617%26acd%3D1558745594883%26pubid%3D9%26tmstp%3D6381454399%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+1558745601413	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+[Parent 11312, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11312, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9952, Chro[me_Child 7968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7968, Chrome_ChildT[Parent 11312, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9036, Chrom1558745607292	Marionette	INFO	Stopped listening on port 52943
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558746334180	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.2QDVsZN286YM"
+1558746335283	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558746335283	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558746335283	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558746338584	Marionette	INFO	Listening on port 59470
+1558746338614	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D8235840804133217283%26uii%3D313383803078925613%26acd%3D1558746337715%26pubid%3D3%26tmstp%3D2088687533%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4965/Banner_728x90.html?sasfid=22374&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893175%26insid%3D8750840%26pgid%3D393349%26ckid%3D8235840804133217283%26uii%3D315354127915913808%26acd%3D1558746337651%26pubid%3D3%26tmstp%3D2088687533%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 10012, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10012, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_ch[Chilanned 11844, l_wiChn.cc, linrome_ChildThre 341
+ead] WARN[ChIild NG: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11844,[Parent 10012, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1558746384474	Marionette	INFO	Stopped listening on port 59470
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558746416023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.A3BepFpy0SaM"
+1558746417130	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558746417131	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558746417131	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558746420202	Marionette	INFO	Listening on port 59588
+1558746420354	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.acdc742362712a538e04edf50787b6b9.html?origin=https%3A%2F%2Fdiepresse.com&settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings, line 12: Error: Network error.
+[Parent 2276, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 2276, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7564, Chrome_ChildThread] WARNING: pipe error: 109: f[Child 14012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14012,[Parent 2276, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 114841558746432813	Marionette	INFO	Stopped listening on port 59588
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 9
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558746801009	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.0cwoaLQb1xkz"
+1558746802104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558746802105	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558746802105	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: chrome://browser/content/aboutPrivateBrowsing.js, line 11: ReferenceError: RPMIsWindowPrivate is not defined
+1558746805284	Marionette	INFO	Listening on port 59947
+1558746805333	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.acdc742362712a538e04edf50787b6b9.html?origin=https%3A%2F%2Fdiepresse.com&settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings, line 12: Error: Network error.
+[Parent 14136, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 14136, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9552, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9552, Chrome_Child[Child 13672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 136[Parent 14136, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 841558746833467	Marionette	INFO	Stopped listening on port 59947
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558746928786	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.xf6FsWwNzAnH"
+1558746929812	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558746929813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558746929813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558746932733	Marionette	INFO	Listening on port 60081
+1558746933111	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7812, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7812, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10320, Chrome_ChildTh[Child 13240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13240, Chrome_ChildThread] WARNING[Parent 7812, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6020, C1558746945431	Marionette	INFO	Stopped listening on port 60081
+[G
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558746988379	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.gyszYr4rhRvG"
+1558746989465	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558746989466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558746989466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558746992403	Marionette	INFO	Listening on port 60202
+1558746992708	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D4468241616012346378%26uii%3D313665278098576981%26acd%3D1558746992114%26pubid%3D10%26tmstp%3D4577445904%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 11792, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11792, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/s[Child 98r44,c/chrom Che/common/ipc_channerl_wiome_Childn.cc, Threaline 3d] 41
+WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9844, Chrome_Ch[Parent 11792, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5360,1558747022089	Marionette	INFO	Stopped listening on port 60202
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558747030005	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.wImocmxL6gl9"
+1558747031097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558747031098	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558747031098	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558747034099	Marionette	INFO	Listening on port 60318
+1558747034334	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.acdc742362712a538e04edf50787b6b9.html?origin=https%3A%2F%2Fdiepresse.com&settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings, line 12: Error: Network error.
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4965/Banner_728x90.html?sasfid=22374&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893175%26insid%3D8750840%26pgid%3D393349%26ckid%3D8237607169563337753%26uii%3D311694953264282139%26acd%3D1558747033685%26pubid%3D25%26tmstp%3D5529671815%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D8237607169563337753%26uii%3D306065453730091863%26acd%3D1558747033769%26pubid%3D25%26tmstp%3D5529671815%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 12536, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12536, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10064, Chrome_Ch[Child 3372, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3372, Chr[Parent 12536, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10420, Ch1558747046242	Marionette	INFO	Stopped listening on port 60318
+[GPU
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558747137350	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.eNAZdzzQmL0h"
+1558747138167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558747138168	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558747138168	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558747141193	Marionette	INFO	Listening on port 60440
+1558747141673	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4965/Banner_728x90.html?sasfid=22374&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893175%26insid%3D8750840%26pgid%3D393349%26ckid%3D8153688593840792593%26uii%3D309724628434359803%26acd%3D1558747140982%26pubid%3D17%26tmstp%3D2519536649%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D8153688593840792593%26uii%3D312820853178193994%26acd%3D1558747141153%26pubid%3D17%26tmstp%3D2519536649%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 2384, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3096,[Child 2164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2164, Chrome_ChildThread] WARNING: pipe error: 109:[Parent 2384, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1558747154289	Marionette	INFO	Stopped listening on port 60440
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558747165465	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.Aj1bCEiJqIih"
+1558747166276	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558747166276	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558747166277	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558747169071	Marionette	INFO	Listening on port 60556
+1558747169288	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mathid.mathtag.com/device/id.js, line 1: unreachable code after return statement
+JavaScript warning: https://mathid.mathtag.com/device/id.js, line 1: unreachable code after return statement
+1558747177593	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+[Parent 14120, Gecko_IPDL protocol error: Handler returned error code!
+IOThread
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11012JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+[Parent 14120, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Child 13576, Chrome_ChildThread] WARN[Parent 14120, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 135921558747201222	Marionette	INFO	Stopped listening on port 60556
+[GPU 10364,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558747274412	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.J0NLVsb4oQkZ"
+1558747275507	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558747275508	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558747275508	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558747278414	Marionette	INFO	Listening on port 60743
+1558747278753	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D604379%26ckid%3D915582107714659333%26uii%3D315635602954822961%26acd%3D1558747286382%26pubid%3D5%26tmstp%3D9051337891%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253bsituation%253d1%253btemp%253d283.3%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dtechscience%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d135%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252fhome%252ftechscience%252findex.do%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Child 12676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12676, JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://code.createjs.com/createjs-2015.11.26.min.js, line 15: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://code.createjs.com/createjs-2015.11.26.min.js, line 12: NS_ERROR_NOT_INITIALIZED: 
+[Parent 7952, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7952, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7952, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12276, 1558747295895	Marionette	INFO	Stopped listening on port 60743
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 112
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558747572227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.pyLdDnrp2vFl"
+1558747573063	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558747573064	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558747573064	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558747576032	Marionette	INFO	Listening on port 61019
+1558747576056	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4965/Banner_728x90.html?sasfid=22374&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893175%26insid%3D8750840%26pgid%3D393349%26ckid%3D8050821584481011217%26uii%3D458343416166045332%26acd%3D1558747575415%26pubid%3D17%26tmstp%3D4982708501%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qpc%253d1000%253b%2524qt%253d89_813_32608t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4965/Banner_728x90.html?sasfid=22374&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893175%26insid%3D8750840%26pgid%3D393349%26ckid%3D8050821584481011217%26uii%3D450180641843084722%26acd%3D1558747600557%26pubid%3D17%26tmstp%3D8149110501%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253bhomepage%253dtrue%253brefsh_no%253d1%253brefsh_tm%253d20%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qpc%253d1000%253b%2524qt%253d89_813_32608t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not aJavaScript error: https://onlineboard.dieplantage.com/a/996/4965/Banner_728x90.html?sasfid=22374&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893175%26insid%3D8750840%26pgid%3D393349%26ckid%3D8050821584481011217%26uii%3D460313741006042187%26acd%3D1558747621954%26pubid%3D17%26tmstp%3D6079294943%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253b%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253bhomepage%253dtrue%253brefsh_no%253d2%253brefsh_tm%253d20%253bhomepage%253dtrue%253bvisitor%253dpresse%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qpc%253d1000%253b%2524qt%253d89_813_32608t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Child 8336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8336, Chrome_ChildThread] WARNING: pipe error: 109: file z:JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+[Parent 11256, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7604, Chro
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+me_ChildThread] WARNING: [Parent 11256, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10376, C1558747631574	Marionette	INFO	Stopped listening on port 61019
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d135%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252fhome%252ftechscience%252findex.do%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D604379%26ckid%3D1810555435666228747%26uii%3D461439640912378188%26acd%3D1558747613710%26pubid%3D11%26tmstp%3D3148895670%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253bsituation%253d1%253btemp%253d283.3%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dtechscience%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qpc%253d1000%253b%2524qt%253d89_813_32608t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d135%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252fhome%252ftechscience%252findex.do%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+[Child 12744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12744, C[Parent 11940, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12932, Chrome_ChildThread] WARNING: p
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+ipe error: 109: file z:/task_1558035249/build/src[Parent 11940, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8416, Chrome_ChildThre1558747634456	Marionette	INFO	Stopped listening on port 61169
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558747760160	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.4IsYha9jXFEZ"
+1558747761345	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558747761346	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558747761346	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558747764645	Marionette	INFO	Listening on port 53389
+1558747765085	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D1907033182957085716%26uii%3D310006103451902822%26acd%3D1558747764336%26pubid%3D20%26tmstp%3D3638879340%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D604379%26ckid%3D1907033182957085716%26uii%3D310287578431297070%26acd%3D1558747805426%26pubid%3D20%26tmstp%3D1652985822%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253bsituation%253d1%253btemp%253d283.3%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dtechscience%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d135%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252fhome%252ftechscience%252findex.do%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 10532, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10072, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10072, Chrome_ChildJavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+[Parent 10532, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 81[Parent 10532, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[C1558747846497	Marionette	INFO	Listening on port 60515
+1558747846741	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.acdc742362712a538e04edf50787b6b9.html?origin=https%3A%2F%2Fdiepresse.com&settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings, line 12: Error: Network error.
+[Parent 14208, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_155801558747867464	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.tO8sCPoEJWW0"
+1558747868315	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558747868316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558747868316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558747871301	Marionette	INFO	Listening on port 60633
+1558747871802	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D1837509413465383951%26uii%3D308880203552024177%26acd%3D1558747870932%26pubid%3D15%26tmstp%3D9812223169%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 12628, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12628, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1288, Chrome_ChildThread] WARNING[Child 6968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6968[Parent 12628, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4264, Ch1558747886550	Marionette	INFO	Stopped listening on port 60633
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558747985134	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.Aab1MGZfMPxn"
+1558747985968	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558747985969	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558747985969	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558747988979	Marionette	INFO	Listening on port 60760
+1558747989461	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.acdc742362712a538e04edf50787b6b9.html?origin=https%3A%2F%2Fdiepresse.com&settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings, line 12: Error: Network error.
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4965/Banner_728x90.html?sasfid=22374&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893175%26insid%3D8750840%26pgid%3D393349%26ckid%3D1415582271666824201%26uii%3D306346928769440559%26acd%3D1558747989136%26pubid%3D9%26tmstp%3D1392080037%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D1415582271666824201%26uii%3D303250704025591772%26acd%3D1558747989288%26pubid%3D9%26tmstp%3D1392080037%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 2612, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 2612, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1071[Child 12092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12092, Chrome_Chi[Parent 2612, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5812, C1558748001607	Marionette	INFO	Stopped listening on port 60760
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558748009212	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.Yuqyjj31dce1"
+1558748010042	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558748010043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558748010043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558748013203	Marionette	INFO	Listening on port 60874
+1558748013537	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D3712359807509505035%26uii%3D304658078910685644%26acd%3D1558748012125%26pubid%3D11%26tmstp%3D5003649250%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4965/Banner_728x90.html?sasfid=22374&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893175%26insid%3D8750840%26pgid%3D393349%26ckid%3D3712359807509505035%26uii%3D305221028864071441%26acd%3D1558748012037%26pubid%3D11%26tmstp%3D5003649250%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 13324, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 13324, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13152, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13152, Chrome_Ch[Child 7172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7172[Parent 13324, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14076, Chrome_ChildTh1558748051704	Marionette	INFO	Stopped listening on port 60874
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558748201585	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.dwqmckwY7xEJ"
+1558748202448	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558748202448	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558748202448	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: chrome://browser/content/aboutPrivateBrowsing.js, line 11: ReferenceError: RPMIsWindowPrivate is not defined
+1558748205782	Marionette	INFO	Listening on port 61109
+1558748205917	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.diepresse.com/assets/js/main-8f8cbf8e5e.js, line 16: TypeError: i is not a function
+[Parent 13600, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8632, Chrome_C[Parent 13600, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9620, Chrome_ChildThread] WARNING: pipe [Parent 13600, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7268, Chro1558748228075	Marionette	INFO	Stopped listening on port 61109
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558748251764	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.SXZzjaPk2rkn"
+1558748252628	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558748252629	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558748252629	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: chrome://browser/content/aboutPrivateBrowsing.js, line 11: ReferenceError: RPMIsWindowPrivate is not defined
+1558748255907	Marionette	INFO	Listening on port 61247
+1558748256090	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.acdc742362712a538e04edf50787b6b9.html?origin=https%3A%2F%2Fdiepresse.com&settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings, line 12: Error: Network error.
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4965/Banner_728x90.html?sasfid=22374&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893175%26insid%3D8750840%26pgid%3D393349%26ckid%3D4553070037607064586%26uii%3D303813653996443047%26acd%3D1558748255526%26pubid%3D10%26tmstp%3D9759614291%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D4553070037607064586%26uii%3D308035778647147554%26acd%3D1558748255655%26pubid%3D10%26tmstp%3D9759614291%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 1948, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 1948, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10084[Child 1224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1224, Chrome_ChildThread] WARN[Parent 1948, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1496, Chrom1558748272621	Marionette	INFO	Stopped listening on port 61247
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558748300155	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.ilIciHLNllkV"
+1558748301038	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558748301039	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558748301039	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558748304252	Marionette	INFO	Listening on port 61361
+1558748304489	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4965/Banner_728x90.html?sasfid=22374&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893175%26insid%3D8750840%26pgid%3D393349%26ckid%3D4588713455800501262%26uii%3D304939553906441722%26acd%3D1558748303346%26pubid%3D14%26tmstp%3D5907941549%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D4588713455800501262%26uii%3D309724628510523482%26acd%3D1558748303503%26pubid%3D14%26tmstp%3D5907941549%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 252, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 252, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/c[Child o71mmon/1ipc6, Chrome_Chil_chdThreaannel_wd] WAin.cc, line 341RNING: pipe
+ error: 109: file z:/ta[Childsk_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7116, Chro[Parent 252, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 113681558748353939	Marionette	INFO	Stopped listening on port 61361
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558748489179	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.5Dg3f8kJSjm1"
+1558748490076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558748490077	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558748490077	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: chrome://browser/content/aboutPrivateBrowsing.js, line 11: ReferenceError: RPMIsWindowPrivate is not defined
+1558748493548	Marionette	INFO	Listening on port 61615
+1558748493612	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.acdc742362712a538e04edf50787b6b9.html?origin=https%3A%2F%2Fdiepresse.com&settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings, line 12: Error: Network error.
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221558742407364%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 1704, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.[Chilcd 14156, Cc, hroline 3me_41
+ChildThread] [WChiARNlING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child [Parent 9920, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9920, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line[ Chi341
+ld 11268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11268, Chrome_ChildThread] W[Parent 9920, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11244,1558748633029	Marionette	INFO	Stopped listening on port 61750
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558748864623	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.WnIm9iO3zlJC"
+1558748865729	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558748865730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558748865730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558748868734	Marionette	INFO	Listening on port 61911
+1558748869054	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558748869285	Marionette	ERROR	[6442450945] No reply from Marionette:Register
+JavaScript error: chrome://marionette/content/listener.js, line 453: TypeError: reply[0] is undefined
+[Parent 10088, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10088, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel[_Child 1219win.2, cc, Chrome_ChildThread] WAline RNING: 341
+pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1219[Parent 10088, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9936, Chr[Parent 10088, Gecko_IOThread] WARNING: file z:/task_1558035249/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1558748869659	Marionette	INFO	Stopped listening on port 61911
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558748904859	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.m5rAJqsBDvmE"
+1558748905655	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558748905656	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558748905656	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558748908600	Marionette	INFO	Listening on port 61947
+1558748908682	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cw.choice.faktor.io/dist/1.2.8/polyfills.bundle.js, line 1: ReferenceError: webpackJsonp is not defined
+[Parent 4372, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4372, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/[ipc_Child 8chan912, Cnel_hrome_win.Chicc, ldThrealine 341
+d] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8912[Parent 4372, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2640, Ch1558748924489	Marionette	INFO	Stopped listening on port 61947
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558749303352	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.PZfHjnQEkhLW"
+1558749304186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558749304187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558749304187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: chrome://browser/content/aboutPrivateBrowsing.js, line 11: ReferenceError: RPMIsWindowPrivate is not defined
+1558749307560	Marionette	INFO	Listening on port 62228
+1558749307687	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11844, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11844, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9692, Chrome_ChildThread] WARNING: pipe error[Child 13412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13412[Parent 11844, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6640, C1558749319050	Marionette	INFO	Stopped listening on port 62228
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558749345555	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.FzUKUmGAaNhx"
+1558749346355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558749346355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558749346356	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558749349321	Marionette	INFO	Listening on port 62342
+1558749349379	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.acdc742362712a538e04edf50787b6b9.html?origin=https%3A%2F%2Fdiepresse.com&settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings, line 12: Error: Network error.
+[Parent 11904, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11904, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13452, C[Child 3116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3116,[Parent 11904, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3841558749358854	Marionette	INFO	Stopped listening on port 62342
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558749367360	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.KBtyjSNyG7zq"
+1558749368165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558749368166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558749368166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558749371044	Marionette	INFO	Listening on port 62444
+1558749371186	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11708, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11708, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11348, Chrome_Child[Child 9700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9700, Chrom[Parent 11708, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10968, Ch1558749425609	Marionette	INFO	Stopped listening on port 62444
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 3332, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+033493869167626%26uii%3D311976428396528974%26acd%3D1558749406224%26pubid%3D10%26tmstp%3D2703537799%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 6188, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6188, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1884, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrom[Child e/co168mmo4, Chromen/i_Chipc_cldThread] WARNING: pipe error: 109: file z:hann/tasel_win.cck_1558, li035ne 341249/buil
+d/src/ipc/chromium/src/chrome[Chi/ldcommon/ipc_channel_win.cc, line 341
+[Child 168[Parent 6188, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1648, Chro1558749420822	Marionette	INFO	Stopped listening on port 62556
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558749443680	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.EJmy02CWFMb2"
+1558749444954	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558749444955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558749444955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558749448360	Marionette	INFO	Listening on port 62663
+1558749448624	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4965/Banner_728x90.html?sasfid=22374&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893175%26insid%3D8750840%26pgid%3D393349%26ckid%3D1568870685253411843%26uii%3D313665278259371282%26acd%3D1558749446847%26pubid%3D3%26tmstp%3D4243770341%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D1568870685253411843%26uii%3D302406279190993365%26acd%3D1558749446942%26pubid%3D3%26tmstp%3D4243770341%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 12648, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12648, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12648, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1588, Chrome_ChildThread] WARNING: p1558749467660	Marionette	INFO	Stopped listening on port 62663
+[G
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558749607420	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.jBmPmfgscJNC"
+1558749608300	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558749608301	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558749608301	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558749611707	Marionette	INFO	Listening on port 62816
+1558749611762	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.acdc742362712a538e04edf50787b6b9.html?origin=https%3A%2F%2Fdiepresse.com&settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings, line 12: Error: Network error.
+[Parent 7292, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7292, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 612, Chrom[Child 12172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12172, Chrome_ChildThread] WARNING: pipe er[Parent 7292, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4312,1558749627221	Marionette	INFO	Stopped listening on port 62816
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558749634963	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.93G5yu1Cd6pe"
+1558749635829	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558749635830	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558749635830	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558749639265	Marionette	INFO	Listening on port 62928
+1558749639293	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.acdc742362712a538e04edf50787b6b9.html?origin=https%3A%2F%2Fdiepresse.com&settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings, line 12: Error: Network error.
+JavaScript error: https://cw.choice.faktor.io/dist/1.2.8/polyfills.bundle.js, line 1: ReferenceError: webpackJsonp is not defined
+JavaScript error: https://cw.choice.faktor.io/dist/1.2.8/main.bundle.js, line 1: ReferenceError: webpackJsonp is not defined
+[Parent 8444, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 8444, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/com[Child 4mon/ipc_channel_win136, Chrome_ChildThread] WARN.cc, lineING 341: pipe
+ error: 109: [Child 2fil9e z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4136[Parent 8444, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13684, Chrome_Ch1558749662054	Marionette	INFO	Stopped listening on port 62928
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558750065701	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.EFdAiNu4RVLl"
+1558750066525	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558750066526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558750066526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: chrome://browser/content/aboutPrivateBrowsing.js, line 11: ReferenceError: RPMIsWindowPrivate is not defined
+1558750069586	Marionette	INFO	Listening on port 63333
+1558750070029	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10224, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13516, Chrome_ChildThread] WARNING: pipe er[Parent 10224, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12544,[Parent 10224, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 83881558750078621	Marionette	INFO	Stopped listening on port 63333
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 1105
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558750086347	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.Co4wWB1c54ad"
+1558750087425	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558750087426	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558750087426	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558750090380	Marionette	INFO	Listening on port 63425
+1558750090674	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13540, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 13540, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromi[Child 531um/s6, rc/chroChrome_ChildThreme/comad] Wmon/ipcARNING:_cha pipnnele err_winor: 10.cc,9: fi line 341
+le z:/task[_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5316, Chrome_Ch[Child 10348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10348, 1558750099706	Marionette	INFO	Stopped listening on port 63425
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558750110905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.v7DG315Fzy31"
+1558750111814	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558750111815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558750111815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: chrome://browser/content/aboutPrivateBrowsing.js, line 11: ReferenceError: RPMIsWindowPrivate is not defined
+1558750115169	Marionette	INFO	Listening on port 63524
+1558750115229	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 9108, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9108, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11100, Chrome_[Child 10852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10[Parent 9108, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3436, Ch1558750146227	Marionette	INFO	Stopped listening on port 63524
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558750360930	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.Of3jD1AdnQ3H"
+1558750361830	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558750361831	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558750361831	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558750364906	Marionette	INFO	Listening on port 63733
+1558750365257	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D4981230310823790091%26uii%3D452432441837894879%26acd%3D1558750364383%26pubid%3D11%26tmstp%3D5869614471%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qpc%253d1000%253b%2524qt%253d89_813_32608t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 12416, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12416, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/commo[Chin/ipld 2840c_ch, Channeroml_win.cce_Child, linThread] WARNING: e 34pipe1
+ error: 10[Child 9580, 9: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2[Parent 12416, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1421558750376692	Marionette	INFO	Stopped listening on port 63733
+[GPU 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558750384312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.vkyWhIiCvGYF"
+1558750385116	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558750385117	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558750385117	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558750388057	Marionette	INFO	Listening on port 63848
+1558750388150	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12356, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12356, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel[Ch_wiildn.cc, line 341
+ 14044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14044, Chrome[Parent 12356, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10268,1558750433173	Marionette	INFO	Stopped listening on port 63848
+[GPU 940
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558750437111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.LHjqkh5fnyM1"
+1558750437938	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558750437938	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558750437938	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558750440928	Marionette	INFO	Listening on port 63990
+1558750441434	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.acdc742362712a538e04edf50787b6b9.html?origin=https%3A%2F%2Fdiepresse.com&settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings, line 12: Error: Network error.
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D5207477917982893580%26uii%3D447647367238816196%26acd%3D1558750440218%26pubid%3D12%26tmstp%3D496001252%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qpc%253d1000%253b%2524qt%253d89_813_32608t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 7800, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc[C_hchailnnel_d 1772, Chrome_ChildThread] WARNINwinG: pi.pe cc,error: 1 line 341
+09: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1772, C[Parent 7800, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9652, Chr1558750551671	Marionette	INFO	Stopped listening on port 63990
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10344, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ip[Cc_chhild 5680, Chranneome_l_win.cc,Chil lindThread]e 34 WAR1
+NING: pipe[C error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5680, Chrome_C[Parent 10344, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6332,1558750547104	Marionette	INFO	Stopped listening on port 64142
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558750558243	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.f8XqnHLYDLsi"
+1558750559338	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558750559338	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558750559339	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558750562520	Marionette	INFO	Listening on port 64249
+1558750562572	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D5564092969579972110%26uii%3D462002591058999560%26acd%3D1558750561929%26pubid%3D14%26tmstp%3D8902324287%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qpc%253d1000%253b%2524qt%253d89_813_32608t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+[Parent 3096, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 3096, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/b[Child 10100,u Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 101[Parent 3096, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4136, 1558750592972	Marionette	INFO	Stopped listening on port 64249
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 13736, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558750596934	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.ssuJebWeiY1e"
+1558750597761	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558750597762	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558750597762	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558750600784	Marionette	INFO	Listening on port 64390
+1558750601254	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D4783080723312543246%26uii%3D457217516457442321%26acd%3D1558750600456%26pubid%3D14%26tmstp%3D4336517161%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qpc%253d1000%253b%2524qt%253d89_813_32608t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4965/Banner_728x90.html?sasfid=22374&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893175%26insid%3D8750840%26pgid%3D393349%26ckid%3D4783080723312543246%26uii%3D446802942319152443%26acd%3D1558750600308%26pubid%3D14%26tmstp%3D4336517161%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qpc%253d1000%253b%2524qt%253d89_813_32608t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4965/Banner_728x90.html?sasfid=22374&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893175%26insid%3D8750840%26pgid%3D604379%26ckid%3D4783080723312543246%26uii%3D448491792180293702%26acd%3D1558750613146%26pubid%3D14%26tmstp%3D3038665626%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253bsituation%253d1%253btemp%253d283.2%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dtechscience%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qpc%253d1000%253b%2524qt%253d89_813_32608t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d135%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252fhome%252ftechscience%252findex.do%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D604379%26ckid%3D4783080723312543246%26uii%3D455528666598019690%26acd%3D1558750613207%26pubid%3D14%26tmstp%3D3038665626%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253bsituation%253d1%253btemp%253d283.2%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dtechscience%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qpc%253d1000%253b%2524qt%253d89_813_32608t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d135%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252fhome%252ftechscience%252findex.do%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+[Parent 13988, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 13988, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3544,[Child 9204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 13988, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_151558750656681	Marionette	INFO	Stopped listening on port 64390
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558750661664	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.2j2WTyr1V5mB"
+1558750662538	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558750662538	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558750662539	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558750666082	Marionette	INFO	Listening on port 64591
+1558750666586	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4965/Banner_728x90.html?sasfid=22374&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893175%26insid%3D8750840%26pgid%3D393349%26ckid%3D3530686401740809733%26uii%3D458343416368540350%26acd%3D1558750665940%26pubid%3D5%26tmstp%3D1795642920%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qpc%253d1000%253b%2524qt%253d89_813_32608t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D3530686401740809733%26uii%3D458343416368605917%26acd%3D1558750666034%26pubid%3D5%26tmstp%3D1795642920%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qpc%253d1000%253b%2524qt%253d89_813_32608t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://ced-ns.sascdn.com/diff/templates/js/rtb-banner/sas-refresh-1.1.js, line 1: TypeError: o.utils.loadScriptCdn is not a function
+[Parent 4756, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4756, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/[Childipc_ 1820, chanChromnel_win.cc, le_Chiline 341
+dThread][Child 396, Chr WARNING: ompipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1820[Parent 4756, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1592,1558750686466	Marionette	INFO	Stopped listening on port 64591
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558750960150	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.DntWRXrIuoHR"
+1558750961033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558750961034	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558750961034	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: chrome://browser/content/aboutPrivateBrowsing.js, line 11: ReferenceError: RPMIsWindowPrivate is not defined
+1558750964399	Marionette	INFO	Listening on port 64886
+1558750964476	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558751006806	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.ldepRZMOoQIU"
+1558751007741	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558751007742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558751007742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558751011419	Marionette	INFO	Listening on port 64991
+1558751011761	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13864, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 13864, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10380, Chro[Parent 13864, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11228, Chrome_ChildThre1558751013557	Marionette	INFO	Stopped listening on port 64991
+[GPU 806
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1558751069466	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "C:\\Users\\Filip\\AppData\\Local\\Temp\\rust_mozprofile.trryUCfG6ttP"
+1558751070341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558751070343	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558751070343	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558751073574	Marionette	INFO	Listening on port 65035
+1558751073792	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://onlineboard.dieplantage.com/a/996/4964/CAD_300x250.html?sasfid=22373&clicktag=https%3A%2F%2Fsmart.styria-digital.com%2Fclick%3Fimgid%3D23893173%26insid%3D8750838%26pgid%3D393349%26ckid%3D846112214293218316%26uii%3D310850528598879198%26acd%3D1558751072492%26pubid%3D12%26tmstp%3D5623505233%26tgt%3D%2524dt%253d1t%253b%2524dt%253d1t%253bthema%253d%253babouser%253dfalse%253bos%253dWindows%253b%253blevel0%253dhome%253bid%253d%253bwidth%253d1920%253btype%253dues%253bcurrentlevel%253dhome%253b%253b%2524hc%26systgt%3D%2524qc%253d1311721455%253b%2524ql%253dUnknown%253b%2524qt%253d89_3033_79277t%253b%2524dma%253d0%253b%2524b%253d12670%253b%2524o%253d11100%253b%2524sw%253d1920%253b%2524sh%253d1080%253b%2524wpc%253d12%253b%2524wpc%253d57%26pgDomain%3Dhttps%253a%252f%252fdiepresse.com%252f%26go%3Dhttps%253a%252f%252fwww.puls4.com%252feuwahl, line 134: TypeError: document.getElementById(...) is null
+JavaScript error: https://cw.choice.faktor.io/dist/1.2.8/polyfills.bundle.js, line 1: ReferenceError: webpackJsonp is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221558742407364%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 6304, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6304, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, li[Chnild 13e 3380,41 Ch
+rome_Child[Child 1T1040, Chrome_Chhilread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 133[Parent 6304, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10512,1558751096412	Marionette	INFO	Stopped listening on port 65035
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
