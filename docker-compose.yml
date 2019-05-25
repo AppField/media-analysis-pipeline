@@ -19,4 +19,58 @@ services:
       - NIFI_CLUSTER_NODE_PROTOCOL_PORT=8082
       - NIFI_ZK_CONNECT_STRING=zookeeper:2181
       - NIFI_ELECTION_MAX_WAIT=1 min
-  
+  es01:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.0
+    container_name: es01
+    environment:
+      - node.name=es01
+      - discovery.seed_hosts=es02
+      - cluster.initial_master_nodes=es01,es02
+      - cluster.name=articles-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - esdata01:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+    networks:
+      - esnet
+  es02:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.0
+    container_name: es02
+    environment:
+      - node.name=es02
+      - discovery.seed_hosts=es01
+      - cluster.initial_master_nodes=es01,es02
+      - cluster.name=articles-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - esdata02:/usr/share/elasticsearch/data
+    networks:
+      - esnet
+  #kibana:
+    #image: docker.elastic.co/kibana/kibana:7.1.0
+    #container_name: kibana
+    #ports:
+    #  - 5601:5601
+    #environment:
+    #  - SERVER_NAME=localhost
+    #  - ELASTICSEARCH_HOSTS='http://es01:9200'
+
+volumes:
+  esdata01:
+    driver: local
+  esdata02:
+    driver: local
+
+networks:
+  esnet:
