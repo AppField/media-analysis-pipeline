@@ -9,6 +9,7 @@ services:
       - ALLOW_ANONYMOUS_LOGIN=yes
   nifi:
     build: ./nifi
+    container_name: nifi
     ports:
       - 8080
     volumes:
@@ -114,6 +115,7 @@ services:
       - 9001:9001
   hue:
     image: bde2020/hdfs-filebrowser:3.11
+    container_name: hue
     ports:
       - 8088:8088
     environment:
