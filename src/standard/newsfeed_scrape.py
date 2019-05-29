@@ -24,14 +24,13 @@ except TimeoutException:
      print("Timed out waiting for page to load")
      browser.quit()
 
-urlsh3 = browser.find_elements_by_xpath("//div[@id='mainContent']//li[contains(@data-id, '200')]//h3/a")
-urlsh4 = browser.find_elements_by_xpath("//div[@id='mainContent']//li[contains(@data-id, '200')]//h4/a")
+urls = browser.find_elements_by_xpath("//div[@id='mainContent']//li[contains(@data-id, '200')]//div[position() = (last()-1)]//a[parent::h3|parent::h4]")
 
-text = [x.get_attribute("href") for x in urlsh3]
-text += [x.get_attribute("href") for x in urlsh4]
+
+text = [x.get_attribute("href") for x in urls]
 
 # print out all the urls.
-
 for x in text:
      print(x)
+     
      
