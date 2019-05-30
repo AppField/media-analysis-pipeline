@@ -7,7 +7,8 @@ from selenium.common.exceptions import TimeoutException
 option = webdriver.FirefoxOptions()
 #option.add_argument("-private")
 
-#Hier aufpassen! Das ist mein Pfad zum geckodriver.exe! Wird bei euch nicht funktionieren. Anpassen falls notwendig.
+#path für ubuntu:
+#browser = webdriver.Firefox(executable_path=r"Geckodriver", firefox_options=option)  
 browser = webdriver.Firefox(executable_path=r"C:\Windows\System32\WebDriver\geckodriver.exe", firefox_options=option)  
 browser.get(r"https://derstandard.at/?_chron=t")
 

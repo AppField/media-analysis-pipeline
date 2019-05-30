@@ -10,10 +10,11 @@ option = webdriver.FirefoxOptions()
 
 url = sys.stdin.readline()                
 
-#zum testen
+#url zum testen:
 #url = "https://derstandard.at/2000103980412/Salvinis-Triumph-hinterlaesst-in-Italien-Freund-und-Feind-ratlos"        
 
-#Hier aufpassen! Das ist mein Pfad zum geckodriver.exe! Wird bei euch nicht funktionieren. Anpassen falls notwendig.
+#path für ubuntu:
+#browser = webdriver.Firefox(executable_path=r"Geckodriver", firefox_options=option)  
 browser = webdriver.Firefox(executable_path=r"C:\Windows\System32\WebDriver\geckodriver.exe", firefox_options=option)  
 browser.get(url)
 
