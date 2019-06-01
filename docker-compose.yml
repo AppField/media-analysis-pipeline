@@ -20,52 +20,7 @@ services:
       - NIFI_CLUSTER_NODE_PROTOCOL_PORT=8082
       - NIFI_ZK_CONNECT_STRING=zookeeper:2181
       - NIFI_ELECTION_MAX_WAIT=1 min
-  es01:
-    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.0
-    container_name: es01
-    environment:
-      - node.name=es01
-      - discovery.seed_hosts=es02
-      - cluster.initial_master_nodes=es01,es02
-      - cluster.name=articles-cluster
-      - bootstrap.memory_lock=true
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
-    ulimits:
-      memlock:
-        soft: -1
-        hard: -1
-    volumes:
-      - esdata01:/usr/share/elasticsearch/data
-    ports:
-      - 9200:9200
-    networks:
-      - esnet
-  es02:
-    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.0
-    container_name: es02
-    environment:
-      - node.name=es02
-      - discovery.seed_hosts=es01
-      - cluster.initial_master_nodes=es01,es02
-      - cluster.name=articles-cluster
-      - bootstrap.memory_lock=true
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
-    ulimits:
-      memlock:
-        soft: -1
-        hard: -1
-    volumes:
-      - esdata02:/usr/share/elasticsearch/data
-    networks:
-      - esnet
-  #kibana:
-    #image: docker.elastic.co/kibana/kibana:7.1.0
-    #container_name: kibana
-    #ports:
-    #  - 5601:5601
-    #environment:
-    #  - SERVER_NAME=localhost
-    #  - ELASTICSEARCH_HOSTS='http://es01:9200'
+  # ======= HDFS =======
   namenode:
     image: bde2020/hadoop-namenode:1.1.0-hadoop2.8-java8
     container_name: namenode
@@ -120,13 +75,73 @@ services:
       - 8088:8088
     environment:
       - NAMENODE_HOST=namenode
+   # ======= ELASTICSEARCH =======
+  elasticsearch1: # Elasticsearch Instance
+    container_name: elasticsearch1
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.1
+    environment:
+      - node.name=elasticsearch1
+      - discovery.seed_hosts=elasticsearch2
+      - bootstrap.memory_lock=true      
+      - cluster.name=article-cluster
+      - cluster.initial_master_nodes=elasticsearch1,elasticsearch2
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"      
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - esdata1:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    networks:
+      esnet:
+        aliases:
+          - elasticsearch
+  elasticsearch2:
+    container_name: elasticsearch2
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.1.1
+    environment:
+      - node.name=elasticsearch2
+      - discovery.seed_hosts=elasticsearch1
+      - cluster.name=article-cluster
+      - cluster.initial_master_nodes=elasticsearch1,elasticsearch2
+      - bootstrap.memory_lock=true            
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - esdata2:/usr/share/elasticsearch/data
+    networks:
+      esnet:
+        aliases:
+          - elasticsearch
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.1.1
+    container_name: kibana
+    restart: always
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - 5601:5601    
+    depends_on: 
+      - elasticsearch1
+      - elasticsearch2
+    networks:
+      esnet:
 
 
 volumes:
-  esdata01:
+  esdata1:  
     driver: local
-  esdata02:
+  esdata2:
     driver: local
 
-networks:
+networks: 
   esnet:
+    driver: bridge
