@@ -18,6 +18,13 @@ docker ps
 Open `localhost:<NIFIPORT>`.
 
 
+## Elasticsearch
+To get Elasticsearch running execute this command on the host machine:
+```
+sudo sysctl -w vm.max_map_count=262144
+```
+This needs to be done after every reboot
+
 ## Links
 
 ### Link to hadoop & spark medium article
