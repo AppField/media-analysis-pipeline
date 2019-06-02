@@ -23,7 +23,7 @@ To get Elasticsearch running execute this command on the host machine:
 ```
 sudo sysctl -w vm.max_map_count=262144
 ```
-This needs to be done after every reboot
+This has to be done after every reboot
 
 ## Links
 
