@@ -21,12 +21,14 @@ def build_datadoc(soup):
     # get article id and modified to save different versions
     article_id = soup.find('meta', attrs={'name': 'oct:articleID'})['content']
     article_modified = soup.find('meta', attrs={'property': 'article:modified_time'})['content']
-    
+    # Replace colon with %3A due to HDFS not allowing filenames with colons
+    article_modified = article_modified.replace(':', '%3A')
+
     if article_id != None:
         return {
             "directory": 'diepresse/{0}/'.format(published), 
-            "filename": '{0}_{1}.json'.format(article_id, article_modified),
-            'content': str(soup)
+            "filename": '{0}_{1}.json'.format(article_id, article_modified)
+            #'content': str(soup)
         }
     else:
         raise Exception("No Article found")
@@ -34,7 +36,7 @@ def build_datadoc(soup):
 
 def main():
     
-    url = sys.stdin.readline()        
+    url = sys.stdin.readline()            
     datadoc = build_datadoc(query_article(url))
     print(json.dumps(datadoc))
 

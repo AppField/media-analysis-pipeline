@@ -30,7 +30,9 @@ def build_datadoc(soup, article_id):
     # get modified to save different versions
     article_modified = soup.find(
         'meta', attrs={'property': 'article:modified_time'})['content']
-
+    # Replace colon with %3A due to HDFS not allowing filenames with colons
+    article_modified = article_modified.replace(':', '%3A')
+    
     if article_id != None:
         return {
             "directory": 'unzensuriert/{0}/'.format(published),

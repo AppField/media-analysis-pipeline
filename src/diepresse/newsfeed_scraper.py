@@ -43,7 +43,6 @@ def query_newsfeed():
     last_url = read_last_url()    
 
     i = 0
-    print(links.__len__())
     while i < links.__len__() and links[i] != last_url:
         print('{}'.format(links[i]))
         i += 1
