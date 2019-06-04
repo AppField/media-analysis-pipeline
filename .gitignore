@@ -1,3 +1,4 @@
 .vscode/
 ./Data/
 data/
+*/**/__pycache__
