@@ -594,7 +594,7 @@
     </entry>
     <entry>
         <key>Command Arguments</key>
-        <value>/src/scrapper/krone/newsfeed_scraper.py</value>
+        <value>/src/scrapper/krone/newsfeed.py</value>
     </entry>
     <entry>
         <key>Batch Duration</key>
@@ -905,7 +905,7 @@
     </entry>
     <entry>
         <key>Command Arguments</key>
-        <value>/src/scrapper/unzensuriert/newsfeed_scraper.py</value>
+        <value>/src/scrapper/unzensuriert/newsfeed.py</value>
     </entry>
     <entry>
         <key>Batch Duration</key>
@@ -1196,7 +1196,7 @@
     </entry>
     <entry>
         <key>Command Arguments</key>
-        <value>/src/scrapper/diepresse/newsfeed_scraper.py</value>
+        <value>/src/scrapper/diepresse/newsfeed.py</value>
     </entry>
     <entry>
         <key>Batch Duration</key>
