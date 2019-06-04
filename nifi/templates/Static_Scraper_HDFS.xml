@@ -482,7 +482,7 @@
 <properties>
     <entry>
         <key>Command Arguments</key>
-        <value>/src/scrapper/krone/article_scraper.py</value>
+        <value>/src/scrapper/krone/article.py</value>
     </entry>
     <entry>
         <key>Command Path</key>
@@ -793,7 +793,7 @@
 <properties>
     <entry>
         <key>Command Arguments</key>
-        <value>/src/scrapper/unzensuriert/article_scraper.py</value>
+        <value>/src/scrapper/unzensuriert/article.py</value>
     </entry>
     <entry>
         <key>Command Path</key>
@@ -1294,7 +1294,7 @@
 <properties>
     <entry>
         <key>Command Arguments</key>
-        <value>/src/scrapper/diepresse/article_scraper.py</value>
+        <value>/src/scrapper/diepresse/article.py</value>
     </entry>
     <entry>
         <key>Command Path</key>
