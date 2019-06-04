@@ -1,16 +1,18 @@
 from bs4 import BeautifulSoup
 import urllib.request
-from extractor import Extractor
+from base_extractor import Extractor
 
 class DiePresseExtractor(Extractor):
      
     meta_data = [
-        {'prop': 'name', 'value': 'oct:articleID'},
         {'prop': 'property', 'value': 'article:published_time'},
         {'prop': 'property', 'value': 'article:modified_time'},
         {'prop': 'property', 'value': 'og:url'},
         {'prop': 'property', 'value': 'og:title'}
     ]
+
+    def get_article_id(self):
+        return self.get_meta_content({'prop': 'name', 'value': 'oct:articleID'})
 
     def get_ressorts(self):
         ul = self.soup.find('ul', {'class': 'breadcrumbs__menu'})
@@ -50,11 +52,16 @@ class DiePresseExtractor(Extractor):
             return ' '.join(texts)
         return None
 
+    def is_plus(self):
+        plus_banner = self.soup.find('span', {'class': 'plus-banner'})
+        return plus_banner != None
+
 def main():
-    url = 'https://diepresse.com/home/innenpolitik/5638363/Mach-ma-schon_Eine-typisch-oesterreichische-Angelobung'
+    #url = 'https://diepresse.com/home/innenpolitik/5638363/Mach-ma-schon_Eine-typisch-oesterreichische-Angelobung'
     #url = 'https://diepresse.com/home/panorama/wien/5638351/Rauchsaeule-ueber-Josefstaedter-Strasse_Brand-in-Dachgeschosswohnung'
-    #url = 'https://diepresse.com/home/meinung/kommentare/leitartikel/4819477/Irgendwann-wird-Deutschland-Grenzen-setzen-muessen?from=suche.intern.portal'
-    #url = 'https://diepresse.com/home/politik/aussenpolitik/4835187/Fluechtlinge_Der-lange-Marsch-der-jungen-Maenner?direct=4835220&_vl_backlink=/home/meinung/kommentare/leitartikel/4835220/index.do&selChannel='
+    #url = 'https://diepresse.com/home/meinung/kommentare/leitartikel/4819477/Irgendwann-wird-Deutschland-Grenzen-setzen-muessen'
+    url = 'https://diepresse.com/home/politik/aussenpolitik/4835187/Fluechtlinge_Der-lange-Marsch-der-jungen-Maenner'
+    #url = 'https://diepresse.com/home/zeitgeschichte/5637894/Tiananmen-als-das-Schweigen-begann'
     DiePresseExtractor(url)
 
 if __name__ == "__main__":

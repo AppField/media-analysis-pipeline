@@ -1,16 +1,18 @@
 from bs4 import BeautifulSoup
 import urllib.request
-from extractor import Extractor
+from base_extractor import Extractor
 
 class KroneExtractor(Extractor):
 
     meta_data = [
-        {'prop': 'name', 'value': 'krn-article-id'},
         {'prop': 'name', 'value': 'krn:published_time'},
         {'prop': 'name', 'value': 'krn:modified_time'},
         {'prop': 'property', 'value': 'og:url'},
         {'prop': 'property', 'value': 'og:title'},
     ]
+
+    def get_article_id(self):
+        return self.get_meta_content({'prop': 'name', 'value': 'krn-article-id'})
 
     def get_ressorts(self):
         ressort_hierarchical = self.soup.find('meta', {'name': 'krn-ressort-slug_hierarchical'})['content']

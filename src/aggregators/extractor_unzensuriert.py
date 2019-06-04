@@ -1,16 +1,20 @@
 from bs4 import BeautifulSoup
 import urllib.request
-from extractor import Extractor
+from base_extractor import Extractor
+import re
 
 class UnzensuriertExtractor(Extractor):
 
-    meta_data = [
-        {'prop': 'name', 'value': 'krn-article-id'},
+    meta_data = [        
         {'prop': 'property', 'value': 'article:published_time'},
         {'prop': 'property', 'value': 'article:modified_time'},
         {'prop': 'property', 'value': 'og:url'},
         {'prop': 'property', 'value': 'og:title'},
     ]
+
+    def get_article_id(self):
+        url = self.soup.find('meta', {'property': 'og:url'})['content']
+        return re.compile('[0-9]+').findall(url)[0]
 
     def get_ressorts(self):
         return { 'name': self.soup.find('meta', {'name': 'keywords'})['content'] }
