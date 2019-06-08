@@ -6,14 +6,15 @@ from selenium.common.exceptions import TimeoutException
 
 option = webdriver.FirefoxOptions()
 #option.add_argument("-private")
+option.headless = True
 
 #path für ubuntu:
-#browser = webdriver.Firefox(executable_path=r"Geckodriver", firefox_options=option)  
-browser = webdriver.Firefox(executable_path=r"C:\Windows\System32\WebDriver\geckodriver.exe", firefox_options=option)  
+browser = webdriver.Firefox(executable_path="./geckodriver", firefox_options=option)  
+#browser = webdriver.Firefox(executable_path=r"C:\Windows\System32\WebDriver\geckodriver.exe", firefox_options=option)  
 browser.get(r"https://derstandard.at/?_chron=t")
 
-# Wait 5 seconds for page to load
-timeout = 5
+# Wait 10 seconds for page to load
+timeout = 10
 
 browser.find_element_by_xpath("/html/body/main/section/div/div[1]/button").click()
 
@@ -34,4 +35,4 @@ text = [x.get_attribute("href") for x in urls]
 for x in text:
      print(x)
      
-     
+browser.quit()
