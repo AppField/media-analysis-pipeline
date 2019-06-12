@@ -25,6 +25,10 @@ class BaseArticle():
 
     def set_meta_data(self):
         pass
+```
+docker ps
+```
+docker ps
         
 
     def build_datadoc(self):     
@@ -38,8 +42,8 @@ class BaseArticle():
             return {
                 'magazine': self.magazine,
                 "directory": '{0}/{1}/'.format(self.magazine, '/'.join(article_published.split('-'))),
-                "filename": '{0}_{1}.json'.format(self.article_id, article_modified)
-                #'content': str(self.soup)
+                "filename": '{0}_{1}.json'.format(self.article_id, article_modified),
+                'content': str(self.soup)
             }
         else:
             raise Exception("No Article found")
