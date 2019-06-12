@@ -43,31 +43,6 @@ services:
       - ./hadoop.env
     ports:
       - 50075:50075
-  spark-master:
-    image: bde2020/spark-master:2.1.0-hadoop2.8-hive-java8
-    container_name: spark-master
-    ports:
-      - 8080:8080
-      - 7077:7077
-    env_file:
-      - ./hadoop.env
-  spark-worker:
-    image: bde2020/spark-worker:2.1.0-hadoop2.8-hive-java8
-    depends_on:
-      - spark-master
-    environment:
-      - SPARK_MASTER=spark://spark-master:7077
-    ports:
-      - 8081:8081
-    env_file:
-      - ./hadoop.env
-  spark-notebook:
-    image: bde2020/spark-notebook:2.1.0-hadoop2.8-hive
-    container_name: spark-notebook
-    env_file:
-      - ./hadoop.env
-    ports:
-      - 9001:9001
   hue:
     image: bde2020/hdfs-filebrowser:3.11
     container_name: hue
