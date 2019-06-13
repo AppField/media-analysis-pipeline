@@ -18,7 +18,11 @@ class UnzensuriertExtractor(Extractor):
         return re.compile('[0-9]+').findall(url)[0]
 
     def get_ressorts(self):
-        return {'name': self.soup.find('meta', {'name': 'keywords'})['content']}
+        meta = self.soup.find('meta', {'name': 'keywords'})
+        if meta != None:
+            return {'name': meta['content']}
+        else: return None
+        
 
     # Note: Some articles don't have an author
     def get_author(self):

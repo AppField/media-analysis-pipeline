@@ -5,6 +5,31 @@
     <name>Media_Pipeline</name>
     <snippet>
         <connections>
+            <id>47645995-fd7e-354a-0000-000000000000</id>
+            <parentGroupId>f4e447dd-f251-33c9-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>f4e447dd-f251-33c9-0000-000000000000</groupId>
+                <id>a6237ee0-a790-3b9e-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>matched</selectedRelationships>
+            <source>
+                <groupId>f4e447dd-f251-33c9-0000-000000000000</groupId>
+                <id>87eb988c-0cba-375b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
             <id>56b02c6c-6544-3e80-0000-000000000000</id>
             <parentGroupId>f4e447dd-f251-33c9-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
@@ -80,6 +105,31 @@
             <zIndex>0</zIndex>
         </connections>
         <connections>
+            <id>777b03f0-c27e-3aa6-0000-000000000000</id>
+            <parentGroupId>f4e447dd-f251-33c9-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>f4e447dd-f251-33c9-0000-000000000000</groupId>
+                <id>87eb988c-0cba-375b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>output stream</selectedRelationships>
+            <source>
+                <groupId>f4e447dd-f251-33c9-0000-000000000000</groupId>
+                <id>c52f821e-0219-353d-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
             <id>9d9e9f61-7310-3252-0000-000000000000</id>
             <parentGroupId>f4e447dd-f251-33c9-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
@@ -100,31 +150,6 @@
             <source>
                 <groupId>f4e447dd-f251-33c9-0000-000000000000</groupId>
                 <id>a30b2c63-8d27-3983-0000-000000000000</id>
-                <type>PROCESSOR</type>
-            </source>
-            <zIndex>0</zIndex>
-        </connections>
-        <connections>
-            <id>9e9d1e53-808d-3a57-0000-000000000000</id>
-            <parentGroupId>f4e447dd-f251-33c9-0000-000000000000</parentGroupId>
-            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-            <destination>
-                <groupId>f4e447dd-f251-33c9-0000-000000000000</groupId>
-                <id>a6237ee0-a790-3b9e-0000-000000000000</id>
-                <type>PROCESSOR</type>
-            </destination>
-            <flowFileExpiration>0 sec</flowFileExpiration>
-            <labelIndex>1</labelIndex>
-            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
-            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
-            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
-            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
-            <name></name>
-            <selectedRelationships>output stream</selectedRelationships>
-            <source>
-                <groupId>f4e447dd-f251-33c9-0000-000000000000</groupId>
-                <id>c52f821e-0219-353d-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
@@ -183,7 +208,7 @@
             <parentGroupId>f4e447dd-f251-33c9-0000-000000000000</parentGroupId>
             <position>
                 <x>796.0</x>
-                <y>1012.8272705078125</y>
+                <y>1262.138671875</y>
             </position>
             <comments></comments>
             <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
@@ -196,7 +221,7 @@
             <id>756f0e4b-b308-379b-0000-000000000000</id>
             <parentGroupId>f4e447dd-f251-33c9-0000-000000000000</parentGroupId>
             <position>
-                <x>966.87841796875</x>
+                <x>965.8438720703125</x>
                 <y>318.18719482421875</y>
             </position>
             <comments></comments>
@@ -211,7 +236,7 @@
             <parentGroupId>f4e447dd-f251-33c9-0000-000000000000</parentGroupId>
             <position>
                 <x>401.0</x>
-                <y>1014.8272705078125</y>
+                <y>1264.138671875</y>
             </position>
             <comments></comments>
             <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
@@ -225,7 +250,7 @@
             <parentGroupId>f4e447dd-f251-33c9-0000-000000000000</parentGroupId>
             <position>
                 <x>0.0</x>
-                <y>1002.8272705078125</y>
+                <y>1252.138671875</y>
             </position>
             <comments></comments>
             <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
@@ -238,7 +263,7 @@
             <id>29e81a03-125f-3e78-0000-000000000000</id>
             <parentGroupId>f4e447dd-f251-33c9-0000-000000000000</parentGroupId>
             <position>
-                <x>326.137939453125</x>
+                <x>325.1033935546875</x>
                 <y>0.0</y>
             </position>
             <comments></comments>
@@ -2108,10 +2133,116 @@
             <variables/>
         </processGroups>
         <processors>
+            <id>87eb988c-0cba-375b-0000-000000000000</id>
+            <parentGroupId>f4e447dd-f251-33c9-0000-000000000000</parentGroupId>
+            <position>
+                <x>344.3798220778506</x>
+                <y>755.4034448647346</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.9.2</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Destination</key>
+                        <value>
+                            <name>Destination</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Return Type</key>
+                        <value>
+                            <name>Return Type</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Path Not Found Behavior</key>
+                        <value>
+                            <name>Path Not Found Behavior</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Null Value Representation</key>
+                        <value>
+                            <name>Null Value Representation</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>id</key>
+                        <value>
+                            <name>id</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>index</key>
+                        <value>
+                            <name>index</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Destination</key>
+                        <value>flowfile-attribute</value>
+                    </entry>
+                    <entry>
+                        <key>Return Type</key>
+                        <value>auto-detect</value>
+                    </entry>
+                    <entry>
+                        <key>Path Not Found Behavior</key>
+                        <value>ignore</value>
+                    </entry>
+                    <entry>
+                        <key>Null Value Representation</key>
+                        <value>empty string</value>
+                    </entry>
+                    <entry>
+                        <key>id</key>
+                        <value>$.id</value>
+                    </entry>
+                    <entry>
+                        <key>index</key>
+                        <value>$.index</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Setup Elasticsearch data</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>matched</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>unmatched</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
+        </processors>
+        <processors>
             <id>a30b2c63-8d27-3983-0000-000000000000</id>
             <parentGroupId>f4e447dd-f251-33c9-0000-000000000000</parentGroupId>
             <position>
-                <x>343.0</x>
+                <x>341.9654541015625</x>
                 <y>285.8272705078125</y>
             </position>
             <bundle>
@@ -2295,7 +2426,7 @@
             <parentGroupId>f4e447dd-f251-33c9-0000-000000000000</parentGroupId>
             <position>
                 <x>344.109217476253</x>
-                <y>748.2727724292633</y>
+                <y>997.5841737964508</y>
             </position>
             <bundle>
                 <artifact>nifi-elasticsearch-nar</artifact>
@@ -2454,11 +2585,11 @@
                     </entry>
                     <entry>
                         <key>put-es-id-attr</key>
-                        <value>$(id)</value>
+                        <value>${id}</value>
                     </entry>
                     <entry>
                         <key>put-es-index</key>
-                        <value>$(index)</value>
+                        <value>${index}</value>
                     </entry>
                     <entry>
                         <key>put-es-type</key>
@@ -2478,7 +2609,7 @@
                     </entry>
                 </properties>
                 <runDurationMillis>0</runDurationMillis>
-                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingPeriod>5 sec</schedulingPeriod>
                 <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
                 <yieldDuration>1 sec</yieldDuration>
             </config>
@@ -2504,7 +2635,7 @@
             <id>c52f821e-0219-353d-0000-000000000000</id>
             <parentGroupId>f4e447dd-f251-33c9-0000-000000000000</parentGroupId>
             <position>
-                <x>343.0001220703125</x>
+                <x>341.965576171875</x>
                 <y>531.3958129882812</y>
             </position>
             <bundle>
@@ -2615,5 +2746,5 @@
             <type>org.apache.nifi.processors.standard.ExecuteStreamCommand</type>
         </processors>
     </snippet>
-    <timestamp>06/13/2019 08:42:47 UTC</timestamp>
+    <timestamp>06/13/2019 11:26:36 UTC</timestamp>
 </template>
