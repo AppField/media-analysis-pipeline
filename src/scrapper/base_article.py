@@ -24,12 +24,7 @@ class BaseArticle():
         return BeautifulSoup(page, 'html.parser')
 
     def set_meta_data(self):
-        pass
-```
-docker ps
-```
-docker ps
-        
+        pass        
 
     def build_datadoc(self):     
 
@@ -40,8 +35,9 @@ docker ps
 
         if self.article_id != None:
             return {
+                'id': self.article_id,
                 'magazine': self.magazine,
-                "directory": '{0}/{1}/'.format(self.magazine, '/'.join(article_published.split('-'))),
+                "directory": '{0}/{1}'.format(self.magazine, '/'.join(article_published.split('-'))),
                 "filename": '{0}_{1}.json'.format(self.article_id, article_modified),
                 'content': str(self.soup)
             }

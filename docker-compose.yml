@@ -7,6 +7,10 @@ services:
     container_name: zookeeper
     environment:
       - ALLOW_ANONYMOUS_LOGIN=yes
+    networks:
+      esnet:
+        aliases:
+          - elasticsearch
   nifi:
     build: ./nifi
     container_name: nifi
@@ -20,6 +24,10 @@ services:
       - NIFI_CLUSTER_NODE_PROTOCOL_PORT=8082
       - NIFI_ZK_CONNECT_STRING=zookeeper:2181
       - NIFI_ELECTION_MAX_WAIT=1 min
+    networks:
+      esnet:
+        aliases:
+          - elasticsearch
   # ======= HDFS =======
   namenode:
     image: bde2020/hadoop-namenode:1.1.0-hadoop2.8-java8
@@ -33,6 +41,10 @@ services:
     ports:
       - 50070:50070
       - 8020
+    networks:
+      esnet:
+        aliases:
+          - elasticsearch
   datanode:
     image: bde2020/hadoop-datanode:1.1.0-hadoop2.8-java8
     depends_on:
@@ -43,6 +55,10 @@ services:
       - ./hadoop.env
     ports:
       - 50075:50075
+    networks:
+      esnet:
+        aliases:
+          - elasticsearch
   hue:
     image: bde2020/hdfs-filebrowser:3.11
     container_name: hue
@@ -50,6 +66,10 @@ services:
       - 8088:8088
     environment:
       - NAMENODE_HOST=namenode
+    networks:
+      esnet:
+        aliases:
+          - elasticsearch
    # ======= ELASTICSEARCH =======
   elasticsearch1: # Elasticsearch Instance
     container_name: elasticsearch1

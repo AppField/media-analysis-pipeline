@@ -20,9 +20,8 @@ class KurierArticle(BaseArticle):
         published_date = self.soup.find('div', {'class': 'article-header-intro-right'})
         if published_date != None:
             date = published_date.find('span').text.strip()
-            format_str = '%d/%m/%Y'
-            self.article_published =  str(datetime.datetime.strptime(date, format_str))
-            print(self.article_published)
+            format_str = '%m/%d/%Y'
+            self.article_published =  str(datetime.datetime.strptime(date, format_str))            
         else:
             self.article_published = datetime.datetime.now()
 
@@ -32,7 +31,7 @@ class KurierArticle(BaseArticle):
         meta_date = self.soup.find('span', {'class': 'article-meta-date'})
         if meta_date != None:
             date = meta_date.text.replace('Stand:', '').strip()
-            format_str = '%d/%m/%Y, %H:%M'
+            format_str = '%m/%d/%Y, %H:%M'
 
             self.article_modified = str(datetime.datetime.strptime(date, format_str))
         else:
@@ -40,6 +39,7 @@ class KurierArticle(BaseArticle):
     
 
 def main():
+    #url = 'https://kurier.at/wirtschaft/wir-haben-uns-mit-den-sanktionen-selbst-ins-knie-geschossen/400521760'
     url = sys.stdin.readline()
     article = KurierArticle(url)
     datadoc = article.build_datadoc()

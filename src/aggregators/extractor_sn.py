@@ -18,8 +18,7 @@ class SnExtractor(Extractor):
 
     def get_ressorts(self):
         ressort_hierarchical = self.soup.find('meta', {'property': 'og:url'})['content'].split('/')
-        ressorts_text = ressort_hierarchical[3:ressort_hierarchical.__len__() - 1]
-        print(ressorts_text)
+        ressorts_text = ressort_hierarchical[3:ressort_hierarchical.__len__() - 1]        
         if ressorts_text.__len__() > 0:
             ressorts = {
                 'name': ressorts_text[0]

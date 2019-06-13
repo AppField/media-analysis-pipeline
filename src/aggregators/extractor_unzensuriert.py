@@ -3,9 +3,10 @@ import urllib.request
 from base_extractor import Extractor
 import re
 
+
 class UnzensuriertExtractor(Extractor):
 
-    meta_data = [        
+    meta_data = [
         {'prop': 'property', 'value': 'article:published_time'},
         {'prop': 'property', 'value': 'article:modified_time'},
         {'prop': 'property', 'value': 'og:url'},
@@ -17,7 +18,7 @@ class UnzensuriertExtractor(Extractor):
         return re.compile('[0-9]+').findall(url)[0]
 
     def get_ressorts(self):
-        return { 'name': self.soup.find('meta', {'name': 'keywords'})['content'] }
+        return {'name': self.soup.find('meta', {'name': 'keywords'})['content']}
 
     # Note: Some articles don't have an author
     def get_author(self):
@@ -28,23 +29,17 @@ class UnzensuriertExtractor(Extractor):
         return comments == None
 
     def get_tags(self):
-        tags_body = self.soup.find('div', {'class': 'retresco-story-tags__body'})
+        tags_body = self.soup.find(
+            'div', {'class': 'retresco-story-tags__body'})
         if tags_body != None:
             tags = tags_body.find_all('a')
-            return [ tag.text for tag in tags]
+            return [tag.text for tag in tags]
         return []
-    
-    def get_article_text(self):        
+
+    def get_article_text(self):
         box = self.soup('div', {'id': 'content-inner'})
         if box != None:
             paragraphs = box[0].find_all('p')
-            texts = [ p.text for p in paragraphs ]
+            texts = [p.text for p in paragraphs]
             return ' '.join(texts)
-        return None                         
-
-def main():
-    url = 'https://unzensuriert.at/content/0029895-Oesterreich-hat-eine-neue-abgespeckte-Uebergangs-Bundesregierung'
-    UnzensuriertExtractor(url)
-
-if __name__ == "__main__":
-    main()
+        return None
