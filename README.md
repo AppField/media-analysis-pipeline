@@ -3,16 +3,18 @@
 ## Summary
 
 Our Capstone Project called "Media Analysis Pipeline" is used to collect various newspapers articles and store them for analysis. 
-The pipeline consits of various technologies, all of which run in containerized environments. The containers are managed by Docker. 
+The pipeline consists of various technologies, all of which run in containerized environments. The containers are managed by Docker. 
 
-Currently there are three support news outletts:
-- [Die Presse](https://diepresse.com)
-- [Kronen Zeitung](https://www.krone.at)
-- [Unzenzusriert.at](https://www.unzensuriert.at)
+| Magazines scraped and saved as rawdata | Transformer available |
+| :---                                   |      :---:            |
+| [Die Presse](https://diepresse.com)    | ✔️
+| [Kronen Zeitung](https://www.krone.at) | ✔️
+| [Unzensuriert.at](https://www.unzensuriert.at) | ✔️
+| [Kurier](https://kurier.at)            | 
 
 
 #### Deployment
-The minimum deployment consits of:
+The minimum deployment consists of:
 - one HDFS namenode
 - one HDFS datanode
 - one Apache zookeeper 
@@ -24,7 +26,7 @@ The minimum deployment consits of:
 ![alt text](etc/deployment.png "Deployment Diagramm")
 
 #### Workflow
-All of the workflow for getting the data, transforming it, saving raw data aswell as transformed and finally storing it in ElasticSearch for analysis, is managed by Apache Nifi.
+All of the workflow for getting the data, transforming it, saving raw data as well as transformed and finally storing it in ElasticSearch for analysis, is managed by Apache Nifi.
 
 ![alt text](etc/workflow.png "Workflow Diagramm")
 
@@ -67,6 +69,6 @@ Then open `localhost:<NIFIPORT>/home`. Inside of Nifi
 ## Project Structure
 
 This project uses a simple filestructure. 
-The folder 'etc' contains everything that is not directly assoicated with the deployment (e.g. pictures used in this README).
-All files conatining code are located in the folder 'src'. In 'src' files are devided in either 'scrapper' or 'transformer'
+The folder `etc` contains everything that is not directly assoicated with the deployment (e.g. pictures used in this README).
+All files containing code are located in the folder `src`. In `src` files are devided in either `scrapper` or 'transformer'
 
