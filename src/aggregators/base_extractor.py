@@ -16,7 +16,6 @@ class Extractor():
 
     def build_datadoc(self, id, ressorts, published_time, modified_time, url, author, title, are_comments_allowed, tags, article_text, is_plus):
         return {
-            '_id': id,            
             'title': title,
             'ressorts': ressorts,
             'published_time': published_time,
