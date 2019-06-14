@@ -7,7 +7,7 @@ import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)))
 from base_newsfeed import Newsfeed
 
-class KurierNewsfeed(Newsfeed):
+class UnzensuriertNewsfeed(Newsfeed):
     directory = 'unzensuriert'
 
     def query_newsfeed(self):
@@ -17,7 +17,7 @@ class KurierNewsfeed(Newsfeed):
         self.links = ['{0}{1}'.format(base_url, item.find('a')['href']) for item in items]
 
 def main():
-    KurierNewsfeed('http://unzensuriert.at/neu')
+    UnzensuriertNewsfeed('http://unzensuriert.at/neu')
 
 if __name__ == "__main__":
     main()
