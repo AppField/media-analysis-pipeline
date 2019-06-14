@@ -1,10 +1,10 @@
 from bs4 import BeautifulSoup
 import urllib.request
-from base_extractor import Extractor
+from base_transformer import Transformer
 import re
 
 
-class UnzensuriertExtractor(Extractor):
+class UnzensuriertTransformer(Transformer):
 
     meta_data = [
         {'prop': 'property', 'value': 'article:published_time'},

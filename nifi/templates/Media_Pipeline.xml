@@ -2697,7 +2697,7 @@
                 <properties>
                     <entry>
                         <key>Command Arguments</key>
-                        <value>/src/aggregators/main.py</value>
+                        <value>/src/transformer/main.py</value>
                     </entry>
                     <entry>
                         <key>Command Path</key>

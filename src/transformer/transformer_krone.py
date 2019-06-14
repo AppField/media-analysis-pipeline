@@ -1,9 +1,9 @@
 from bs4 import BeautifulSoup
 import urllib.request
-from base_extractor import Extractor
+from base_transformer import Transformer
 
 
-class KroneExtractor(Extractor):
+class KroneTransformer(Transformer):
 
     meta_data = [
         {'prop': 'name', 'value': 'krn:published_time'},

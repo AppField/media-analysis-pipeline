@@ -1,10 +1,10 @@
 from bs4 import BeautifulSoup
 import urllib.request
-from base_extractor import Extractor
+from base_transformer import Transformer
 import urllib.request
 
 
-class DiePresseExtractor(Extractor):
+class DiePresseTransformer(Transformer):
 
     meta_data = [
         {'prop': 'property', 'value': 'article:published_time'},
@@ -65,7 +65,7 @@ def main():
     html = urllib.request.urlopen(
         'https://diepresse.com/home/innenpolitik/5643381/Freies-Spiel-der-Kraefte_Antragsflut-im-Nationalrat')
 
-    DiePresseExtractor(html).extract_data()
+    DiePresseTransformer(html).extract_data()
 
 
 if __name__ == "__main__":

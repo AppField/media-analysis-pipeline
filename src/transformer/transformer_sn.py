@@ -1,9 +1,9 @@
 from bs4 import BeautifulSoup
 import urllib.request
-from base_extractor import Extractor
+from base_transformer import Transformer
 import re
 
-class SnExtractor(Extractor):
+class SnTransformer(Transformer):
 
     meta_data = [        
         {'prop': 'property', 'value': 'og:article:published_time'},
@@ -70,7 +70,7 @@ class SnExtractor(Extractor):
 def main():
     url = 'https://www.sn.at/politik/weltpolitik/us-praesident-trump-trifft-britische-premierministerin-may-71236891'
     #url = 'https://www.sn.at/salzburg/wirtschaft/mittags-billig-abends-teuer-koennen-flexible-preise-die-touristenstroeme-lenken-71223766'
-    SnExtractor(url)
+    SnTransformer(url)
 
 if __name__ == "__main__":
     main()

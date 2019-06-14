@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import urllib.request
 
 
-class Extractor():
+class Transformer():
     # change prop and value attributes in subclasses
     meta_data = [
         {'prop': 'name', 'value': 'krn:published_time'},

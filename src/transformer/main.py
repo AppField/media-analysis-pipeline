@@ -1,12 +1,12 @@
 import json
 import sys
-from extractor_diepresse import DiePresseExtractor
-from extractor_krone import KroneExtractor
-from extractor_unzensuriert import UnzensuriertExtractor
-from extractor_sn import SnExtractor
+from transformer_diepresse import DiePresseTransformer
+from transformer_krone import KroneTransformer
+from transformer_unzensuriert import UnzensuriertTransformer
+from transformer_sn import SnTransformer
 
 
-def call_extractor():
+def call_transformer():
     # read and parse json string to json
     
     json_str = sys.stdin.readline()
@@ -15,18 +15,18 @@ def call_extractor():
     html = data['content']
 
     if data['magazine'] == 'kurier':
-        extractor = DiePresseExtractor(html)
+        transformer = DiePresseTransformer(html)
     elif data['magazine'] == 'krone':
-        extractor = KroneExtractor(html)
+        transformer = KroneTransformer(html)
     elif data['magazine'] == 'diepresse':
-        extractor = DiePresseExtractor(html)
+        transformer = DiePresseTransformer(html)
     elif data['magazine'] == 'unzensuriert':
-        extractor = UnzensuriertExtractor(html)
+        transformer = UnzensuriertTransformer(html)
     elif data['magazine'] == 'sn':
-        extractor = SnExtractor(html)
+        transformer = SnTransformer(html)
 
-    if extractor != None:
-        datadoc = extractor.extract_data()
+    if transformer != None:
+        datadoc = transformer.extract_data()
 
         # build json for elasticsearch:
         el_data = {
@@ -40,4 +40,4 @@ def call_extractor():
 
 
 if __name__ == "__main__":
-    call_extractor()
+    call_transformer()
