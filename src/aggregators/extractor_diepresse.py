@@ -61,14 +61,12 @@ class DiePresseExtractor(Extractor):
         plus_banner = self.soup.find('span', {'class': 'plus-banner'})
         return plus_banner != None
 
+def main():
+    html = urllib.request.urlopen(
+        'https://diepresse.com/home/innenpolitik/5643381/Freies-Spiel-der-Kraefte_Antragsflut-im-Nationalrat')
 
-# ============== Uncomment for developing ==================
-#def main():
-    #html = urllib.request.urlopen(
-        #'https://diepresse.com/home/schaufenster/gourmet/weinkarte/5640209/Im-Keller_Gruener-Veltliner-Gutsreserve-2011-vom-Weingut-Geyerhof')
-
-    #DiePresseExtractor(html)
+    DiePresseExtractor(html).extract_data()
 
 
-#if __name__ == "__main__":
- #   main()
+if __name__ == "__main__":
+    main()
