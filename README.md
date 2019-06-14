@@ -1,4 +1,16 @@
-# Media Analyse Pipeline
+# Media Analysis Pipeline
+
+## Summary
+
+Our Capstone Project called "Media Analysis Pipeline" is used to collect various newspapers articles and store them for analysis. 
+
+Currently there are three support news outletts:
+- Die Presse
+- Kronen Zeitung
+- Unzenzusriert.at
+
+
+
 
 ## Setup
 
