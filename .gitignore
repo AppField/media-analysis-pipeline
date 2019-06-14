@@ -1,4 +1,5 @@
 .vscode/
 ./Data/
 data/
+./hdfs_conf/
 */**/__pycache__
