@@ -79,6 +79,18 @@ Then open `localhost:<NIFIPORT>/home`. Inside of Nifi you can import the provide
 4. Click "Add" and after that your ready to run it! <br>
 <img src="etc/nifi-add-template/4.png" alt="Nifi manage Templates" width="200"/>
 
+__Kibana__
+The project already contains a Kibana objects file, which contains the index patterns, visualizations and dashboard. To import it you have to do following steps:
+
+* Open Kibana on `localhost:5601`
+* On the left menu bar open settings (last one)
+* Click `Saved Objects` on lower menu
+* Click `Import` on top right corner
+* Click `Import` again
+* Open `./kibana/objects.json`
+* Click lower `Import` button
+
+Now you can click `Dashboard` on the left menu bar to view the data.
 
 ## Project Structure
 
