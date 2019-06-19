@@ -30,13 +30,13 @@ All of the workflow for getting the data, transforming it, saving raw data as we
 
 ![alt text](etc/workflow.png "Workflow Diagramm")
 
-## Setup
+## Usage
 
 __Run:__
 ```
 docker-compose up
 ```
-Then run `hdfs_conf_script.sh` to copy HDFS config files from the namenode to Nifi.
+Then run `hdfs_conf_script.sh` to copy HDFS config files from the namenode to Nifi. This is only necessary the first time you start the containers.
 
 Finally to get ElasticSearch to work just run: 
 ```
