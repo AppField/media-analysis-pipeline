@@ -128,6 +128,6 @@ With the URLs at hand we can start scraping. For the scraper we use the same str
 
 <img src="etc/Articles.png" alt="Article Class Diagramm" width="400"/>
 
-Finally all of the data needs to be transformed, so that it can be easily analysed. For this, again, we have a base class called `BaseTransfomrer`and subclasses for ever outlet.
+Finally all of the data needs to be transformed, so that it can be easily analysed. For this, again, we have a base class called `BaseTransfomer`and subclasses for ever outlet.
 
 <img src="etc/Transformer.png" alt="Transformer Class Diagramm" width="400"/>
