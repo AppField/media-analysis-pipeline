@@ -38,6 +38,8 @@ docker-compose up
 ```
 Then run `hdfs_conf_script.sh` to copy HDFS config files from the namenode to Nifi. This is only necessary the first time you start the containers.
 
+__First time ElasticSearch script configuration:__
+
 Finally to get ElasticSearch to work just run: 
 ```
 sysctl -w vm.max_map_count=262144
@@ -57,7 +59,8 @@ sysctl -w vm.max_map_count=262144
 ```
 This has to be done after every reboot
 
-## Usage
+__Adapt Workflow__
+
 To edit or start the current workflow simple open Nifi in your browser. 
 To get NiFis port, simply run:
 ```
