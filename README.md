@@ -30,6 +30,9 @@ All of the workflow for getting the data, transforming it, saving raw data as we
 
 ![alt text](etc/workflow.png "Workflow Diagramm")
 
+
+
+
 ## Usage
 
 __Run:__
@@ -71,12 +74,12 @@ Then open `localhost:<NIFIPORT>/home`. Inside of Nifi you can import the provide
 
 ## Project Structure
 
-
 __Files__
 
 This project uses a simple filestructure. 
 The folder `etc` contains everything that is not directly assoicated with the deployment (e.g. pictures used in this README).
-All files containing code are located in the folder `src`. In `src` files are devided in either `scrapper` or `transformer`
+All files containing code are located in the folder `src`. In `src` files are devided in either `scrapper` or `transformer`.
+The folder `nifi` contains all files necessary for the custom Nifi container to run. 
 
 __HDFS__
 
@@ -89,3 +92,15 @@ As mentioned earlier, all of the data gets saved in raw format (complete HTML of
 All files are saved in a common schema:
 
 `magazineName-year-month` 
+
+## Python Scripts
+
+To scrape and transform the articles, we use Python. For this purpose we have a simple class structure. 
+First to get the URLs which we want to scrape, we use a class called Newsfeed. This is the base class and every news outlet has it's specialised class which inheritates from it. 
+![alt text](etc/Newsfeeds.png "Newsfeed Class Diagramm")
+
+With the URLs at hand we can start scraping. For the scraper we use the same structure as for the Newsfeed scraper. 
+![alt text](etc/Articles.png "Article Class Diagramm")
+
+Finally all of the data needs to be transformed, so that it can be easily analysed. 
+![alt text](etc/Transformer.png "Transformer Class Diagramm")
