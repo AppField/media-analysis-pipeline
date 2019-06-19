@@ -91,6 +91,11 @@ The project already contains a Kibana objects file, which contains the index pat
 
 Now you can click `Dashboard` on the left menu bar to view the data.
 
+
+__Hue__
+
+To see the data stored in the HDFS open your browser and navigagte to `localhost:8088`. From there you can browse the data. 
+
 ## Project Structure
 
 __Files__
@@ -102,7 +107,7 @@ The folder `nifi` contains all files necessary for the custom Nifi container to 
 
 __HDFS__
 
-As mentioned earlier, all of the data gets saved in raw format (complete HTML of the website) to a HDFS Filesystem. This consists of:
+As mentioned earlier, all of the data gets saved in raw format (complete HTML of the website) to a hadoop filesystem (HDFS). This consists of:
 - namenode(s) 
     - responsible for orchestrating datanodes
 - datanode(s):
