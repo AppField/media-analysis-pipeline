@@ -32,7 +32,6 @@ All of the workflow for getting the data, transforming it, saving raw data as we
 
 
 
-
 ## Usage
 
 __Run:__
@@ -60,7 +59,7 @@ Press Enter and then:
 ```
 sysctl -w vm.max_map_count=262144
 ```
-This has to be done after every reboot
+This has to be done after every reboot.
 
 __Adapt Workflow__
 
@@ -71,6 +70,15 @@ docker ps
 ```
 
 Then open `localhost:<NIFIPORT>/home`. Inside of Nifi you can import the provided workflow.
+1. First select upload template on the left side of the screen.<br>
+<img src="etc/nifi-add-template/1.png" alt="Nifi manage Templates" width="200"/>
+2. Then select the template, which is located in `./nifi/templates` and click "Upload".<br>
+<img src="etc/nifi-add-template/2.png" alt="Nifi manage Templates" width="200"/>
+3. After the upload insert the template via the Button in the top menu bar. <br>
+<img src="etc/nifi-add-template/3.png" alt="Nifi manage Templates" width="300"/>
+4. Click "Add" and after that your ready to run it! <br>
+<img src="etc/nifi-add-template/4.png" alt="Nifi manage Templates" width="200"/>
+
 
 ## Project Structure
 
@@ -96,11 +104,14 @@ All files are saved in a common schema:
 ## Python Scripts
 
 To scrape and transform the articles, we use Python. For this purpose we have a simple class structure. 
-First to get the URLs which we want to scrape, we use a class called Newsfeed. This is the base class and every news outlet has it's specialised class which inheritates from it. 
-![alt text](etc/Newsfeeds.png "Newsfeed Class Diagramm")
+First to get the URLs which we want to scrape, we use a class called `Newsfeed`. This is the base class and every news outlet has it's specialised class which inheritates from it. 
 
-With the URLs at hand we can start scraping. For the scraper we use the same structure as for the Newsfeed scraper. 
-![alt text](etc/Articles.png "Article Class Diagramm")
+<img src="etc/Newsfeeds.png" alt="Newsfeed Class Diagramm" width="400"/>
 
-Finally all of the data needs to be transformed, so that it can be easily analysed. 
-![alt text](etc/Transformer.png "Transformer Class Diagramm")
+With the URLs at hand we can start scraping. For the scraper we use the same structure as for the Newsfeed scraper. In this case the base class is called `BaseArticle`.
+
+<img src="etc/Articles.png" alt="Article Class Diagramm" width="400"/>
+
+Finally all of the data needs to be transformed, so that it can be easily analysed. For this, again, we have a base class called `BaseTransfomrer`and subclasses for ever outlet.
+
+<img src="etc/Transformer.png" alt="Transformer Class Diagramm" width="400"/>
