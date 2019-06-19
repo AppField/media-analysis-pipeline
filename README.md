@@ -23,14 +23,12 @@ The minimum deployment consists of:
 - one Kibana container
 - one Hue container
 
-![alt text](etc/deployment.png "Deployment Diagramm")
+<img src="etc/deployment.png" alt="Deployment Diagram" width="650"/>
 
 #### Workflow
 All of the workflow for getting the data, transforming it, saving raw data as well as transformed and finally storing it in ElasticSearch for analysis, is managed by Apache Nifi.
 
-![alt text](etc/workflow.png "Workflow Diagramm")
-
-
+<img src="etc/workflow.png" alt="Workflow Diagram" width="650"/>
 
 ## Usage
 
