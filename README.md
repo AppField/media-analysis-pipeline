@@ -67,11 +67,25 @@ To get NiFis port, simply run:
 docker ps
 ```
 
-Then open `localhost:<NIFIPORT>/home`. Inside of Nifi 
+Then open `localhost:<NIFIPORT>/home`. Inside of Nifi you can import the provided workflow.
 
 ## Project Structure
 
+
+__Files__
+
 This project uses a simple filestructure. 
 The folder `etc` contains everything that is not directly assoicated with the deployment (e.g. pictures used in this README).
-All files containing code are located in the folder `src`. In `src` files are devided in either `scrapper` or 'transformer'
+All files containing code are located in the folder `src`. In `src` files are devided in either `scrapper` or `transformer`
 
+__HDFS__
+
+As mentioned earlier, all of the data gets saved in raw format (complete HTML of the website) to a HDFS Filesystem. This consists of:
+- namenode(s) 
+    - responsible for orchestrating datanodes
+- datanode(s):
+    - responsible for actaully saving the data
+
+All files are saved in a common schema:
+
+`magazineName-year-month` 
