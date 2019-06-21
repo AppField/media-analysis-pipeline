@@ -19,11 +19,6 @@ Magazines scraped and saved as rawdata | Transformer available
 The minimum deployment consists of following containers:<br><ul class='normal'><li>One Apache Zookeeper</li><li>One Apache NiFi</li><li>One HDFS namenode</li><li>One HDFS datanode</li><li>One Hue</li><li>Two ElasticSearch Nodes</li><li>One Kibana</li></ul> | <img src="etc/deployment.png" alt="Deployment Diagram" width="600"/>
 :-- | :--
 
-<style>
-    .normal {
-        font-weight: normal;
-    }
-</style>
 
 ### Workflow
 All of the workflow for getting the data, transforming it, saving raw data as well as transformed and finally storing it in ElasticSearch for analysis, is managed by Apache Nifi.
@@ -126,11 +121,11 @@ To edit or start the current workflow open Nifi in your browser.
 Get NiFis port by runnning `docker ps | grep nifi` and open `localhost:<NIFIPORT>/nifi` in your browser.
 
 
-Step | Image | Step | Image
-:--- | :---: | :--- | :---:
-1. Select `upload template` on the left side of the screen. |  <img src="etc/nifi-add-template/1.png" alt="Nifi manage Templates" width="200"/>| 2. Select the template, which is located in `./nifi/templates` and click `Upload`. |<img src="etc/nifi-add-template/2.png" alt="Nifi manage Templates" width="200"/>| 
-3. Insert the template via the button in the top menu bar.|<img src="etc/nifi-add-template/3.png" alt="Nifi manage Templates" width="300"/>| 4. Click `Add`|<img src="etc/nifi-add-template/4.png" alt="Nifi manage Templates" width="200"/>|
-5. Click somewhere on the background of NiFi and Click the `Play` button to start the whole workflow|<img src="etc/nifi-add-template/5.png" alt="Nifi start workflow" width="200"/>| 6. See the workflow running!
+|Step | Image | Step | Image |
+|:--- | :---: | :--- | :---: |
+|1. Select `upload template` on the left side of the screen. |  <img src="etc/nifi-add-template/1.png" alt="Nifi manage Templates" width="200"/>| 2. Select the template, which is located in `./nifi/templates` and click `Upload`. |<img src="etc/nifi-add-template/2.png" alt="Nifi manage Templates" width="200"/> | 
+|3. Insert the template via the button in the top menu bar.|<img src="etc/nifi-add-template/3.png" alt="Nifi manage Templates" width="300"/>| 4. Click `Add`|<img src="etc/nifi-add-template/4.png" alt="Nifi manage Templates" width="200"/>|
+|5. Click somewhere on the background of NiFi and Click the `Play` button to start the whole workflow|<img src="etc/nifi-add-template/5.png" alt="Nifi start workflow" width="200"/>| 6. See the workflow running! |
 
 
 ### Python Scripts
