@@ -2,4 +2,6 @@
 ./Data/
 data/
 ./hdfs_conf/
+nifi/core-site.xml
+nifi/hdfs-site.xml
 */**/__pycache__
