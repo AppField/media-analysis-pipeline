@@ -52,12 +52,12 @@ __Import Workflow__
 To edit or start the current workflow open Nifi in your browser. 
 Get NiFi port by running: `docker ps | grep nifi` and open `localhost:<NIFIPORT>/nifi` in your browser.
 
-
 Step | Image | Step | Image
 :--- | :---: | :--- | :---:
-1. Select `upload template` on the left side of the screen. |  <img src="etc/nifi-add-template/1.png" alt="Nifi manage Templates" width="200"/>| 2. Select the template, which is located in `./nifi/templates` and click `Upload`. |<img src="etc/nifi-add-template/2.png" alt="Nifi manage Templates" width="200"/>| 
-3. Insert the template via the button in the top menu bar.|<img src="etc/nifi-add-template/3.png" alt="Nifi manage Templates" width="300"/>| 4. Click `Add`|<img src="etc/nifi-add-template/4.png" alt="Nifi manage Templates" width="200"/>|
-5. Click somewhere on the background of NiFi and Click the `Play` button to start the whole workflow|<img src="etc/nifi-add-template/5.png" alt="Nifi start workflow" width="200"/>| 6. See the workflow running!
+|1. Select `upload template` on the left side of the screen. | <img  src="etc/nifi-add-template/1.png"  alt="Nifi manage Templates"  width="200"/>| 2. Select the template, which is located in `./nifi/templates` and click `Upload`. |<img  src="etc/nifi-add-template/2.png"  alt="Nifi manage Templates"  width="200"/>
+|3. Insert the template via the button in the top menu bar.|<img  src="etc/nifi-add-template/3.png"  alt="Nifi manage Templates"  width="300"/>| 4. Click `Add`|<img  src="etc/nifi-add-template/4.png"  alt="Nifi manage Templates"  width="200"/>
+|5. Click somewhere on the background of NiFi and Click the `Play` button to start the whole workflow|<img  src="etc/nifi-add-template/5.png"  alt="Nifi start workflow"  width="200"/>| 6. See the workflow running!|️️️
+
 
 __Hue__
 
@@ -95,7 +95,7 @@ The folder `nifi` contains all files necessary for the custom Nifi container to 
 
 __Ensure ElasticSearch will work__
 
-ElasticSearch needs more memory to store its inidices. Therefore the [mmap counts](https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html) needs to be increased.
+ElasticSearch needs more memory to store its inidices. Therefore the [mmap count](https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html) needs to be increased.
 To do so simply run following shell command(s), depending on your OS:
 
 Linux | OS X 
@@ -121,11 +121,11 @@ To edit or start the current workflow open Nifi in your browser.
 Get NiFis port by runnning `docker ps | grep nifi` and open `localhost:<NIFIPORT>/nifi` in your browser.
 
 
-|Step | Image | Step | Image |
-|:--- | :---: | :--- | :---: |
-|1. Select `upload template` on the left side of the screen. |  <img src="etc/nifi-add-template/1.png" alt="Nifi manage Templates" width="200"/>| 2. Select the template, which is located in `./nifi/templates` and click `Upload`. |<img src="etc/nifi-add-template/2.png" alt="Nifi manage Templates" width="200"/> | 
-|3. Insert the template via the button in the top menu bar.|<img src="etc/nifi-add-template/3.png" alt="Nifi manage Templates" width="300"/>| 4. Click `Add`|<img src="etc/nifi-add-template/4.png" alt="Nifi manage Templates" width="200"/>|
-|5. Click somewhere on the background of NiFi and Click the `Play` button to start the whole workflow|<img src="etc/nifi-add-template/5.png" alt="Nifi start workflow" width="200"/>| 6. See the workflow running! |
+Step | Image | Step | Image
+:--- | :---: | :--- | :---:
+|1. Select `upload template` on the left side of the screen. | <img  src="etc/nifi-add-template/1.png"  alt="Nifi manage Templates"  width="200"/>| 2. Select the template, which is located in `./nifi/templates` and click `Upload`. |<img  src="etc/nifi-add-template/2.png"  alt="Nifi manage Templates"  width="200"/>
+|3. Insert the template via the button in the top menu bar.|<img  src="etc/nifi-add-template/3.png"  alt="Nifi manage Templates"  width="300"/>| 4. Click `Add`|<img  src="etc/nifi-add-template/4.png"  alt="Nifi manage Templates"  width="200"/>
+|5. Click somewhere on the background of NiFi and Click the `Play` button to start the whole workflow|<img  src="etc/nifi-add-template/5.png"  alt="Nifi start workflow"  width="200"/>| 6. See the workflow running!|️️️
 
 
 ### Python Scripts
