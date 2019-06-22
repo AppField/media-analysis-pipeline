@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import urllib.request
 from base_transformer import Transformer
-
+import json
 
 class KroneTransformer(Transformer):
 
@@ -41,6 +41,17 @@ class KroneTransformer(Transformer):
 
     # Note: Some articles don't have an author
     def get_author(self):
+        content = self.soup.find('div', {'class': 'c_content'})
+        boxes = content.find_all('div', {'class': 'box'})
+        last_box = boxes[boxes.__len__() - 1]
+        
+        p = last_box.find('p', {'style': 'text-align: right;'})
+        if p != None:
+            em = p.find('em')
+            if em != None:
+                return em.text.strip().replace(', Kronen Zeitung', '')
+    
+        # Take standard author line. Mostly krone.at or krone Sport
         div = self.soup.find('div', {'class': 'authorline__name'})
         return div.text.strip() if div != None else None
 
@@ -64,3 +75,14 @@ class KroneTransformer(Transformer):
             texts = [p.text for p in paragraphs]
             return ' '.join(texts)
         return None
+
+def main():
+    html = urllib.request.urlopen(
+        'https://www.krone.at/1945872')
+
+    datadoc = KroneTransformer(html).extract_data()
+    print(json.dumps(datadoc))
+
+
+if __name__ == "__main__":
+    main()
