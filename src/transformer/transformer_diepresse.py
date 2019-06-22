@@ -43,7 +43,7 @@ class DiePresseTransformer(Transformer):
     # Note: Some articles don't have an author
     def get_author(self):
         anchor = self.soup.find('a', {'class': 'article__author'})
-        return anchor.text.replace('von', '').strip() if anchor != None else None
+        return anchor.text.replace('von', '').strip() if anchor != None else "DiePresse"
 
     def are_comments_allowed(self):
         comments = self.soup.find('section', {'class': 'comments'})
