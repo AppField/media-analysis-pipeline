@@ -82,6 +82,23 @@ Now you can click `Dashboard` on the left menu bar and select the dashboard `Onl
 
 ## Documentation
 
+### Nifi-Workflow
+
+All of the computational work is manged by one Nifi workflow.
+
+
+In the main workflow, one can see it starts with the processor group `Static Scraper`.
+The scraped articles are then Saved tho HDFS via the processor `PutHDFS`. After that metadata is extracted (which is saved by python in JSON format) into the flow file so the last processor `PutElasticSearchHTTP` has the necessary information to save the data into ElasticSearch.
+<img src="etc/nifi-workflow/complete.png" alt="Nifi workflow" >
+
+`Static scraper` starts with processor goups for every outlett. 
+Then the processor `Extract Directory Information` extracts information used by the processor `PutHDFS` from the output of the scrapers into the flow file.
+<img src="etc/nifi-workflow/static-scraper.png" alt="Nifi workflow" >
+
+All of the `Static scraper`'s are of the same structure. This is the one for Kurier.
+<img src="etc/nifi-workflow/scraper.png" alt="Nifi workflow" >
+First step in our pipline is the scraping of the links. This is part of our `Newsfeed Scraper` Processor. This one uses a python script to get links for articles. These are then split up by the Processor `Split Text` . For each link the Processor `ExecuteStreamCommand` runs the actually python scraper to get articles.  
+
 ### Project Structure
 
 __Files__
@@ -139,6 +156,7 @@ Libraries which are used:
 For local development [Pipenv](https://docs.pipenv.org/en/latest/) is used. Execute this commands to get it up and running:
 
 __Install Pipenv__
+
 Linux:
 ```bash
 # Debian/Ubuntu
@@ -157,7 +175,7 @@ pipenv install
 pipenv shell
 ```
 
-###Class diagrams
+### Class diagrams
 
 First to get the URLs which we want to scrape, we use a class called `Newsfeed`. This is the base class and every news outlet has it's specialised class which inheritates from it. 
 
