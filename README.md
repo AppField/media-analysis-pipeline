@@ -145,6 +145,13 @@ Step | Image | Step | Image
 |5. Click somewhere on the background of NiFi and Click the `Play` button to start the whole workflow.|<img  src="etc/nifi-add-template/5.png"  alt="Nifi start workflow"  width="200"/>| 6. See the workflow running!|️️️
 
 
+__Stop__
+
+To stop all docker containers simultaneously run this:
+```bash
+docker-compose down
+```
+
 ### Python Scripts
 
 To scrape and transform the articles, we use Python 3.7. 
