@@ -98,6 +98,7 @@ All of the `Static scrapers` are of the same structure. This is the one for Kuri
 First step in our pipline is the scraping of the article links. This is part of our `Newsfeed Scraper` processor. This one uses a python script to get links for articles. These are then split up by the processor `Split Text` . For each link the processor `Article Scraper` runs the actual python scraper to get the article.
 
 __Retransform articles__
+
 The processor group `Get Articles from HDFS` is used to get articles which are already stored in HDFS. Therefore we can retransform them and save them again into ElasticSearch.
 <img src="etc/nifi-workflow/get-articles-hdfs.png" alt="Processor group Get Articles from HDFS" >
 
