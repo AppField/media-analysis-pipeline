@@ -26,7 +26,7 @@ All of the workflow for getting the data, transforming it, saving raw data as we
 <img src="etc/workflow.png" alt="Workflow Diagram" width="600"/>
 
 ### Usage
-
+Clone the github repository: `git clone git@github.com:AppField/media-analysis-pipeline.git`
 __Ensure ElasticSearch will work__
 
 ElasticSearch needs more memory to store its inidices. Therefore the [mmap counts](https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html) needs to be increased.
@@ -43,7 +43,6 @@ This has to be done after every reboot of the docker host machine.
 __Run__
 
 To start all docker containers simultaneously run this: `docker-compose up`
-
 Then run `hdfs_conf_script.sh` to copy HDFS config files from the namenode to Nifi. This is only necessary the first time you start the containers.
 
 
@@ -56,7 +55,7 @@ Step | Image | Step | Image
 :--- | :---: | :--- | :---:
 |1. Select `upload template` on the left side of the screen. | <img  src="etc/nifi-add-template/1.png"  alt="Nifi manage Templates"  width="200"/>| 2. Select the template, which is located in `./nifi/templates` and click `Upload`. |<img  src="etc/nifi-add-template/2.png"  alt="Nifi manage Templates"  width="200"/>
 |3. Insert the template via the button in the top menu bar.|<img  src="etc/nifi-add-template/3.png"  alt="Nifi manage Templates"  width="300"/>| 4. Click `Add`|<img  src="etc/nifi-add-template/4.png"  alt="Nifi manage Templates"  width="200"/>
-|5. Click somewhere on the background of NiFi and Click the `Play` button to start the whole workflow.|<img  src="etc/nifi-add-template/5.png"  alt="Nifi start workflow"  width="200"/>| 6. See the workflow running!|️️️
+|5. Click somewhere on the background of NiFi and Click the `Play` button to start the whole workflow.|<img  src="etc/nifi-add-template/5.png"  alt="Nifi start workflow"  width="200"/>| 6. Start all processes, except `Get Articles from HDFS` to start the Pipeine
 
 
 __Hue__
@@ -74,8 +73,7 @@ The project already contains a Kibana objects file, which contains the index pat
 * Click `Saved Objects` on lower menu
 * Click `Import` on top right corner
 * Click `Import` again
-* Open `./kibana/objects.json`
-* Click lower `Import` button
+* Open `./kibana/objects.json` and click the `Import button`
 
 Now you can click `Dashboard` on the left menu bar and select the dashboard `Online Magazines` which you've just imported to view the data.
 
@@ -88,16 +86,20 @@ All of the computational work is manged by one Nifi workflow.
 
 
 In the main workflow, one can see it starts with the processor group `Static Scraper`.
-The scraped articles are then Saved tho HDFS via the processor `PutHDFS`. After that metadata is extracted (which is saved by python in JSON format) into the flow file so the last processor `PutElasticSearchHTTP` has the necessary information to save the data into ElasticSearch.
+The scraped articles are then saved to HDFS via the processor `PutHDFS`. After that metadata is extracted (which is saved by python in JSON format, scripts are located in `./src/transformer`) into the flow file so the last processor `PutElasticSearchHTTP` has the necessary information to save the data into ElasticSearch.
 <img src="etc/nifi-workflow/complete.png" alt="Nifi workflow" >
 
 `Static scraper` starts with processor goups for every outlett. 
 Then the processor `Extract Directory Information` extracts information used by the processor `PutHDFS` from the output of the scrapers into the flow file.
 <img src="etc/nifi-workflow/static-scraper.png" alt="Nifi workflow" >
 
-All of the `Static scraper`'s are of the same structure. This is the one for Kurier.
+All of the `Static scrapers` are of the same structure. This is the one for Kurier.
 <img src="etc/nifi-workflow/scraper.png" alt="Nifi workflow" >
-First step in our pipline is the scraping of the links. This is part of our `Newsfeed Scraper` Processor. This one uses a python script to get links for articles. These are then split up by the Processor `Split Text` . For each link the Processor `ExecuteStreamCommand` runs the actually python scraper to get articles.  
+First step in our pipline is the scraping of the article links. This is part of our `Newsfeed Scraper` processor. This one uses a python script to get links for articles. These are then split up by the processor `Split Text` . For each link the processor `Article Scraper` runs the actual python scraper to get the article.
+
+__Retransform articles__
+The processor group `Get Articles from HDFS` is used to get articles which are already stored in HDFS. Therefore we can retransform them and save them again into ElasticSearch.
+<img src="etc/nifi-workflow/get-articles-hdfs.png" alt="Processor group Get Articles from HDFS" >
 
 ### Project Structure
 
@@ -129,6 +131,7 @@ To start all docker containers simultaneously run this:
 ```bash
 docker-compose up
 ```
+You can also detach the command from the terminal: `docker-compose up -d`
 Then run `hdfs_conf_script.sh` to copy HDFS config files from the namenode to Nifi. This is only necessary the first time you start the containers.
 
 
@@ -151,6 +154,7 @@ To stop all docker containers simultaneously run this:
 ```bash
 docker-compose down
 ```
+This will also delete the containers.
 
 ### Python Scripts
 
