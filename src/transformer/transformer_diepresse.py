@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup
 import urllib.request
 from base_transformer import Transformer
 import urllib.request
+import json
+import re
 
 
 class DiePresseTransformer(Transformer):
@@ -42,8 +44,11 @@ class DiePresseTransformer(Transformer):
 
     # Note: Some articles don't have an author
     def get_author(self):
-        anchor = self.soup.find('a', {'class': 'article__author'})
-        return anchor.text.replace('von', '').strip() if anchor != None else None
+        author = self.soup.find('', {'class': 'article__author'})
+        if author != None:
+            # Remove 'Von" from author line
+            return re.sub('von', '', author.text, flags=re.IGNORECASE).strip()
+        else: return "DiePresse"        
 
     def are_comments_allowed(self):
         comments = self.soup.find('section', {'class': 'comments'})
@@ -63,9 +68,10 @@ class DiePresseTransformer(Transformer):
 
 def main():
     html = urllib.request.urlopen(
-        'https://diepresse.com/home/innenpolitik/5643381/Freies-Spiel-der-Kraefte_Antragsflut-im-Nationalrat')
+        'https://diepresse.com/home/karriere/karrierelounge/5647776/Scheitern-als-Teil-der-Ausbildung')
 
-    DiePresseTransformer(html).extract_data()
+    datadoc = DiePresseTransformer(html).extract_data()
+    print(json.dumps(datadoc['author']))
 
 
 if __name__ == "__main__":
